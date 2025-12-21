@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataArk Labs | Workflow Automation & Data Analytics Agency</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(135deg, #08314d 0%, #1a4a6b 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo svg {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+
+        .cta-button {
+            background: white;
+            color: #08314d;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #08314d 0%, #1a4a6b 100%);
+            color: white;
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            animation: fadeInUp 0.8s ease 0.2s backwards;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            animation: fadeInUp 0.8s ease 0.4s backwards;
+        }
+
+        .btn-primary, .btn-secondary {
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: white;
+            color: #08314d;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #08314d;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Stats Section */
+        .stats {
+            background: #f8f9fa;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .stats-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #08314d;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-item p {
+            color: #666;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-card h3 {
+            color: #08314d;
+            margin-bottom: 1rem;
+        }
+
+        .service-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .service-card li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .service-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #08314d;
+            font-weight: bold;
+        }
+
+        /* Process Section */
+        .process {
+            background: #f8f9fa;
+            padding: 4rem 2rem;
+        }
+
+        .process-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #08314d 0%, #1a4a6b 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+
+        .process-step h3 {
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        /* Lead Form Section */
+        .lead-form-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #08314d 0%, #1a4a6b 100%);
+            color: white;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .form-container h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .form-container p {
+            color: #666;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #08314d;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #08314d 0%, #1a4a6b 100%);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(26, 58, 82, 0.4);
+        }
+
+        /* Case Studies Section */
+        .case-studies {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .case-study-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .case-study {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .case-study:hover {
+            transform: translateY(-5px);
+        }
+
+        .case-study-header {
+            background: linear-gradient(135deg, #08314d 0%, #1a4a6b 100%);
+            color: white;
+            padding: 2rem;
+        }
+
+        .case-study-header h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .case-study-body {
+            padding: 2rem;
+        }
+
+        .case-study-metric {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .metric-label {
+            font-weight: 600;
+            color: #666;
+        }
+
+        .metric-value {
+            color: #08314d;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 3rem 2rem 1rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: #cbd5e0;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid #4a5568;
+            text-align: center;
+            color: #cbd5e0;
+        }
+
+        /* Success Message */
+        .success-message {
+            display: none;
+            background: #48bb78;
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .form-container {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg width="200" height="40" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- D shape with bar chart -->
+                    <g>
+                        <!-- Outer D -->
+                        <path d="M 30 30 L 30 170 L 100 170 C 140 170 170 140 170 100 C 170 60 140 30 100 30 Z M 60 55 L 100 55 C 123 55 145 77 145 100 C 145 123 123 145 100 145 L 60 145 Z" fill="white"/>
+                        
+                        <!-- Bar chart bars inside D -->
+                        <rect x="70" y="90" width="15" height="50" fill="white"/>
+                        <rect x="90" y="70" width="15" height="70" fill="white"/>
+                        <rect x="110" y="80" width="15" height="60" fill="white"/>
+                    </g>
+                    
+                    <!-- DataArk text -->
+                    <text x="190" y="135" font-family="'Arial', 'Helvetica', sans-serif" font-size="95" font-weight="700" fill="white" letter-spacing="-3">DataArk</text>
+                </svg>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Transform Your Business with Intelligent Automation</h1>
+        <p>We help companies streamline operations and unlock insights with cutting-edge workflow automation and data analytics</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">Schedule Free Consultation</a>
+            <a href="#case-studies" class="btn-secondary">View Case Studies</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>40%</h3>
+                <p>Average Time Saved</p>
+            </div>
+            <div class="stat-item">
+                <h3>$500K+</h3>
+                <p>Annual Cost Reduction</p>
+            </div>
+            <div class="stat-item">
+                <h3>50+</h3>
+                <p>Successful Projects</p>
+            </div>
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Comprehensive solutions to automate your workflows and leverage your data</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Workflow Automation</h3>
+                <p>Eliminate manual tasks and boost productivity with intelligent automation solutions.</p>
+                <ul>
+                    <li>Process automation design</li>
+                    <li>RPA implementation</li>
+                    <li>API integrations</li>
+                    <li>Custom workflow solutions</li>
+                    <li>Zapier & Make.com expertise</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Data Analytics</h3>
+                <p>Turn your data into actionable insights with advanced analytics and visualization.</p>
+                <ul>
+                    <li>Business intelligence dashboards</li>
+                    <li>Predictive analytics</li>
+                    <li>Data warehouse setup</li>
+                    <li>Custom reporting solutions</li>
+                    <li>KPI tracking & monitoring</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🔗</div>
+                <h3>System Integration</h3>
+                <p>Connect your tools and systems for seamless data flow across your organization.</p>
+                <ul>
+                    <li>CRM & ERP integration</li>
+                    <li>Cloud platform connectivity</li>
+                    <li>Database synchronization</li>
+                    <li>Real-time data pipelines</li>
+                    <li>Legacy system modernization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" id="process">
+        <div class="process-container">
+            <h2 class="section-title">Our Process</h2>
+            <p class="section-subtitle">A proven methodology to deliver results quickly and efficiently</p>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Discovery</h3>
+                    <p>We analyze your current workflows and identify automation opportunities</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Design</h3>
+                    <p>Create custom solutions tailored to your specific business needs</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Implementation</h3>
+                    <p>Deploy automated workflows with minimal disruption to operations</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Optimization</h3>
+                    <p>Monitor performance and continuously improve your systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-studies" id="case-studies">
+        <h2 class="section-title">Success Stories</h2>
+        <p class="section-subtitle">Real results from real businesses</p>
+        
+        <div class="case-study-grid">
+            <div class="case-study">
+                <div class="case-study-header">
+                    <h3>E-Commerce Company</h3>
+                    <p>Order Processing Automation</p>
+                </div>
+                <div class="case-study-body">
+                    <p>Automated order fulfillment and inventory management for a growing online retailer.</p>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Time Saved</span>
+                        <span class="metric-value">35 hrs/week</span>
+                    </div>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Error Reduction</span>
+                        <span class="metric-value">92%</span>
+                    </div>
+                    <div class="case-study-metric">
+                        <span class="metric-label">ROI</span>
+                        <span class="metric-value">380%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-study">
+                <div class="case-study-header">
+                    <h3>SaaS Startup</h3>
+                    <p>Analytics Dashboard Implementation</p>
+                </div>
+                <div class="case-study-body">
+                    <p>Built comprehensive analytics platform to track user engagement and revenue metrics.</p>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Data Sources</span>
+                        <span class="metric-value">12+</span>
+                    </div>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Decision Speed</span>
+                        <span class="metric-value">5x faster</span>
+                    </div>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Revenue Growth</span>
+                        <span class="metric-value">45%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-study">
+                <div class="case-study-header">
+                    <h3>Financial Services</h3>
+                    <p>Report Automation & Integration</p>
+                </div>
+                <div class="case-study-body">
+                    <p>Streamlined monthly reporting process and integrated multiple data sources.</p>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Time Saved</span>
+                        <span class="metric-value">120 hrs/month</span>
+                    </div>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Accuracy</span>
+                        <span class="metric-value">99.8%</span>
+                    </div>
+                    <div class="case-study-metric">
+                        <span class="metric-label">Cost Savings</span>
+                        <span class="metric-value">$85K/year</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lead-form-section" id="contact">
+        <div class="form-container">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Schedule a free consultation to discuss your automation and analytics needs</p>
+            
+            <div class="success-message" id="successMessage">
+                Thank you! We'll be in touch within 24 hours.
+            </div>
+
+            <form id="leadForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Work Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company Name *</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Primary Interest *</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="workflow-automation">Workflow Automation</option>
+                        <option value="data-analytics">Data Analytics</option>
+                        <option value="system-integration">System Integration</option>
+                        <option value="all-services">All Services</option>
+                        <option value="not-sure">Not Sure Yet</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="company-size">Company Size</label>
+                    <select id="company-size" name="company-size">
+                        <option value="">Select size</option>
+                        <option value="1-10">1-10 employees</option>
+                        <option value="11-50">11-50 employees</option>
+                        <option value="51-200">51-200 employees</option>
+                        <option value="201-500">201-500 employees</option>
+                        <option value="500+">500+ employees</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Tell us about your project *</label>
+                    <textarea id="message" name="message" required placeholder="What challenges are you facing? What are you hoping to achieve?"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Schedule Free Consultation</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DataArk Labs</h3>
+                <p>Empowering businesses through intelligent automation and data-driven insights.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#services">Workflow Automation</a></li>
+                    <li><a href="#services">Data Analytics</a></li>
+                    <li><a href="#services">System Integration</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#process">Our Process</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: hello@dataarklabs.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DataArk Labs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handler
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get the submit button
+            const submitBtn = document.querySelector('.submit-btn');
+            const originalText = submitBtn.textContent;
+            
+            // Disable button and show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+            
+            // Get form data
+            const formData = new FormData(this);
+            
+            // Send to PHP backend
+            fetch('submit-form.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Show success message
+                    const successMsg = document.getElementById('successMessage');
+                    successMsg.textContent = data.message;
+                    successMsg.classList.add('show');
+                    
+                    // Reset form
+                    document.getElementById('leadForm').reset();
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        successMsg.classList.remove('show');
+                    }, 5000);
+                } else {
+                    // Show error message
+                    alert('Error: ' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again or contact us directly at hello@dataarklabs.com');
+            })
+            .finally(() => {
+                // Re-enable button
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-card, .process-step, .case-study').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
