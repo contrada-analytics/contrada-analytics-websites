@@ -6,7 +6,8 @@ export function Hero() {
     <section className="pt-24 pb-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in-up">
-          Stop Losing Revenue to Spreadsheet Chaos
+          Stop Losing Revenue to 
+          Spreadsheet Chaos
         </h1>
         <p className="text-xl md:text-2xl mb-8 opacity-95 max-w-4xl mx-auto animate-fade-in-up animation-delay-200">
           Stop reconciling spreadsheets. Start growing revenue. Work with DataArk Labs to build you intelligent automation for CPG/Retail revenue management, 
