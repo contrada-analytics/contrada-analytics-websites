@@ -27,6 +27,15 @@ export function ContactForm() {
     }
   }, [])
 
+  useEffect(() => {
+    (window as any).onTurnstileSuccess = (token: string) => {
+      setTurnstileToken(token)
+    }
+    return () => {
+      delete (window as any).onTurnstileSuccess
+    }
+  }, [])
+  
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
@@ -187,12 +196,11 @@ export function ContactForm() {
 
               {/* Cloudflare Turnstile */}
               <div
-                ref={turnstileRef}
                 className="cf-turnstile"
                 data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
-                data-callback={(token: string) => setTurnstileToken(token)}
-                data-expired-callback={() => setTurnstileToken('')}
-                data-error-callback={() => setTurnstileToken('')}
+                data-callback="onTurnstileSuccess"
+                data-expired-callback="onTurnstileSuccess"
+                data-error-callback="onTurnstileSuccess"
               ></div>
 
               <Button
