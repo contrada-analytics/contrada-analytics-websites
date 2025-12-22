@@ -13,6 +13,7 @@ model Lead {
   email            String
   company          String
   phone            String?
+  companyType      String?   @map("company_type")
   serviceInterest  String?   @map("service_interest")
   companySize      String?   @map("company_size")
   message          String    @db.Text
@@ -21,6 +22,6 @@ model Lead {
   ipAddress        String?   @map("ip_address")
   userAgent        String?   @map("user_agent") @db.Text
   submittedAt      DateTime  @default(now()) @map("submitted_at")
-  
+
   @@map("leads")
 }

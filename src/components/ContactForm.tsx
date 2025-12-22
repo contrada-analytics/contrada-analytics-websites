@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -10,12 +10,34 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null)
+  const [turnstileToken, setTurnstileToken] = useState<string>('')
   const formRef = useRef<HTMLFormElement>(null)
+  const turnstileRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    // Load Cloudflare Turnstile script
+    const script = document.createElement('script')
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js'
+    script.async = true
+    script.defer = true
+    document.body.appendChild(script)
+
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [])
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
     setMessage(null)
+
+    // Check if Turnstile token exists
+    if (!turnstileToken) {
+      setMessage({ type: 'error', text: 'Please complete the security check' })
+      setIsSubmitting(false)
+      return
+    }
 
     const formData = new FormData(e.currentTarget)
     const data = Object.fromEntries(formData)
@@ -26,7 +48,7 @@ export function ContactForm() {
       const response = await fetch('/api/leads', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
+        body: JSON.stringify({ ...data, turnstileToken })
       })
 
       console.log('Response status:', response.status)
@@ -45,6 +67,11 @@ export function ContactForm() {
         setMessage({ type: 'success', text: result.message || "Thank you! We'll be in touch within 24 hours." })
         // Reset form
         formRef.current?.reset()
+        // Reset Turnstile
+        setTurnstileToken('')
+        if (window.turnstile) {
+          window.turnstile.reset()
+        }
       } else {
         // Show the actual error message from the server
         const errorMessage = result.error || 'Something went wrong. Please try again.'
@@ -158,10 +185,20 @@ export function ContactForm() {
                 />
               </div>
 
+              {/* Cloudflare Turnstile */}
+              <div
+                ref={turnstileRef}
+                className="cf-turnstile"
+                data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+                data-callback={(token: string) => setTurnstileToken(token)}
+                data-expired-callback={() => setTurnstileToken('')}
+                data-error-callback={() => setTurnstileToken('')}
+              ></div>
+
               <Button
                 type="submit"
                 className="w-full bg-gradient-to-r from-[#08314d] to-[#1a4a6b] hover:opacity-90"
-                disabled={isSubmitting}
+                disabled={isSubmitting || !turnstileToken}
               >
                 {isSubmitting ? 'Submitting...' : 'Book a 30-Minute Call'}
               </Button>

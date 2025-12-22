@@ -1,12 +1,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Bot, Compass, Shield } from "lucide-react"
+import { Bot, Compass, ShieldCheck, Network } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export function Services() {
   const services = [
     {
-      icon: Bot,
+      icon: Network,
+      icon2: Bot,
       title: "Custom Data Pipeline/ AI Agent Development",
       link: "/services/ai-agent-development",
       description: "Automate the low-value, administrative work that's eating your team's time—allowing them to focus on more growth-driven activities.",
@@ -17,7 +18,7 @@ export function Services() {
         "Automated customer POS data ingestion, transformation, and analytics reporting",
         "RGM agents that enforce guidelines and identify revenue-positive initiatives",
         "Manufacturer-retailer collaboration for JBP preparation and data requests",
-        "Deploy in your environment or DataArk's secure portal"
+        "Deploy in your environment or DataArk's secure platform"
       ]
     },
     {
@@ -35,7 +36,7 @@ export function Services() {
       ]
     },
     {
-      icon: Shield,
+      icon: ShieldCheck,
       title: "AI Governance Framework",
       link: "/services/ai-governance",
       description: "As global AI regulations take shape, organizations need governance that protects without constraining. Develop clear policies and operating models for responsible AI adoption that balance innovation velocity with regulatory compliance and industry standards",
@@ -63,7 +64,10 @@ export function Services() {
             <Link key={index} href={service.link}>
               <Card className="hover:shadow-xl transition-shadow cursor-pointer h-full">
                 <CardHeader>
-                  <service.icon className="w-12 h-12 text-[#673DE6] mb-4" />
+                  <div className="flex gap-3 mb-4">
+                    <service.icon className="w-12 h-12 text-[#673DE6]" />
+                    {service.icon2 && <service.icon2 className="w-12 h-12 text-[#673DE6]" />}
+                  </div>
                   <CardTitle className="text-[#08314d]">{service.title}</CardTitle>
                   <CardDescription>{service.description}</CardDescription>
                 </CardHeader>

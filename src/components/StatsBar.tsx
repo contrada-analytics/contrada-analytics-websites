@@ -1,8 +1,8 @@
 export function StatsBar() {
   const stats = [
     {
-      number: "17 Years",
-      label: "CPG Experience"
+      number: "20 Years",
+      label: "CPG/Retail Experience"
     },
     {
       number: "14 Countries",

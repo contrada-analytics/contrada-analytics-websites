@@ -28,7 +28,7 @@ export function Problem() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-[#08314d]">The Hidden Cost of Manual Commercial Analytics</h2>
+          <h2 className="text-4xl font-bold mb-4 text-[#08314d]">The Hidden Cost of Manual Processes and Data Wragling </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             While your competitors automate, your team is stuck in spreadsheets—and it's costing you more than time
           </p>
@@ -54,7 +54,7 @@ export function Problem() {
 
         <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
           <p className="text-lg text-gray-700">
-            <strong className="text-[#08314d]">The bottom line:</strong> Every week spent on manual analysis is a week you're not optimizing trade spend, responding to market shifts, or getting ahead of promotional conflicts. Your competitors with automated systems are moving faster—and winning.
+            <strong className="text-[#08314d]">The bottom line:</strong> Every minute spent on manual data consolidation and analysis is time your team is not spending on finding ways to sell more stock, to more people, in a profitable way. Your competitors with automated systems are spending more time on value-added activities, and winning.
           </p>
         </div>
       </div>

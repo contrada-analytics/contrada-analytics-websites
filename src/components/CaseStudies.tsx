@@ -7,7 +7,7 @@ export function CaseStudies() {
       subtitle: "Promotional Analytics Automation",
       description: "Standardised and automated ingestion of retailer promotional grids for 8 customer teams in the UK and 6 Customer Teams in Australia to allow for real-time monitoring of promotional laydown based on feature space, catalogue activity, price and mechanic to help optimise against current and future trade spend, as well as avoid costly 'promotional clashes' between retailers.",
       metrics: [
-        { label: "Time Saved", value: "240 hrs/month" },
+        { label: "Time Saved", value: "120 hrs/month" },
         { label: "Trade Spend ROI", value: "+18%" },
         { label: "Decision Speed", value: "10x faster" }
       ]
@@ -37,7 +37,7 @@ export function CaseStudies() {
   return (
     <section id="case-studies" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center mb-4">Proven Results for CPG Brands</h2>
+        <h2 className="text-4xl font-bold text-center mb-4">Proven Results for CPG/Retail Brands</h2>
         <p className="text-xl text-gray-600 text-center mb-12">
           Real outcomes from companies that chose to automate instead of reconcile
         </p>

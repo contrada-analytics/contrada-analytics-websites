@@ -7,13 +7,21 @@ export function About() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-6">Why Work With Me</h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            I've spent 17 years inside a global CPG organisation—not advising from the outside, but doing the work.
-            I've led platform and data engineering teams, built commercial systems, and sat in sales and marketing
-            roles across multiple regions. I've seen where decisions stall, which initiatives actually move the needle,
-            and why so many data and AI projects fail to deliver.
+            My name is Jason Weir. I'm a Data & AI Transformation Leader, based in Australia, with more than two decades of experience working globally across 
+            the CPG and retail industry—not as an external advisor, but as a practitioner. I've led 
+            platform and data engineering teams, developed commercial systems, and held sales and marketing 
+            roles spanning multiple regions. This breadth of experience has given me a clear view of where 
+            decisions stall, which initiatives genuinely drive results, and why so many data and AI projects 
+            fall short of their promise.
           </p>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto mt-4 font-semibold">
             That experience shapes everything I do now.
+          </p>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto mt-6 leading-relaxed">
+            I started this company because I've watched too many talented teams struggle with problems I know how to solve.
+            Every manual spreadsheet reconciliation, every delayed decision waiting for data, every AI initiative that delivers
+            a demo but never goes live—I've been there. I know what works and what doesn't. My mission is simple: use that
+            hard-won experience to help more teams move faster, make better decisions, and achieve the success they're capable of.
           </p>
         </div>
 
