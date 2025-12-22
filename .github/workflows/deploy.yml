@@ -34,9 +34,9 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd /var/www/dataarklabs
+          cd /var/www/contrada-analytics-websites
           git pull origin main
-          npm install --production
+          npm install
           npm run build
           pm2 restart dataarklabs
           
