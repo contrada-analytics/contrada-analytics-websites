@@ -13,6 +13,7 @@ import { StructuredData } from "@/components/StructuredData"
 export default function Home() {
   return (
     <main className="min-h-screen">
+      {/* Deployment test - 2025-12-23 14:30 */}
       <StructuredData />
       <Header />
       <Hero />
