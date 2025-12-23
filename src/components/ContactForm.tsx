@@ -31,15 +31,6 @@ export function ContactForm() {
     (window as any).onTurnstileSuccess = (token: string) => {
       setTurnstileToken(token)
     }
-    return () => {
-      delete (window as any).onTurnstileSuccess
-    }
-  }, [])
-
-  useEffect(() => {
-    (window as any).onTurnstileSuccess = (token: string) => {
-      setTurnstileToken(token)
-    }
     (window as any).onTurnstileExpired = () => {
       setTurnstileToken('')
     }
