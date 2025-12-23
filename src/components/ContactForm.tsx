@@ -35,6 +35,24 @@ export function ContactForm() {
       delete (window as any).onTurnstileSuccess
     }
   }, [])
+
+  useEffect(() => {
+    (window as any).onTurnstileSuccess = (token: string) => {
+      setTurnstileToken(token)
+    }
+    (window as any).onTurnstileExpired = () => {
+      setTurnstileToken('')
+    }
+    (window as any).onTurnstileError = () => {
+      setTurnstileToken('')
+    }
+
+    return () => {
+      delete (window as any).onTurnstileSuccess
+      delete (window as any).onTurnstileExpired
+      delete (window as any).onTurnstileError
+    }
+  }, [])
   
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -196,11 +214,11 @@ export function ContactForm() {
 
               {/* Cloudflare Turnstile */}
               <div
-                className="cf-turnstile"
-                data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
-                data-callback="onTurnstileSuccess"
-                data-expired-callback="onTurnstileSuccess"
-                data-error-callback="onTurnstileSuccess"
+                  className="cf-turnstile"
+                  data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+                  data-callback="onTurnstileSuccess"
+                  data-expired-callback="onTurnstileExpired"
+                  data-error-callback="onTurnstileError"
               ></div>
 
               <Button
