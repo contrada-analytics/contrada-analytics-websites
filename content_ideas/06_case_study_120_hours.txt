@@ -1,0 +1,39 @@
+LINKEDIN POST IDEA #6: "120 Hours Back Every Month" - Case Study
+
+TARGET AUDIENCE: CPG commercial teams, customer marketing leaders, operations managers
+
+HOOK:
+120 hours per month.
+
+That's what this CPG manufacturer was losing to manual promotional data consolidation.
+
+Here's how we got it back.
+
+KEY POINTS:
+- Challenge: 14 customer teams (8 UK, 6 Australia) manually tracking retailer promotional grids
+- Data scattered across retailer portals, emails, PDFs, spreadsheets
+- Post-promotion analysis taking 3-4 weeks instead of hours
+- Result: Real-time promotional monitoring, clash prevention, 18% trade spend ROI improvement
+
+STRUCTURE:
+1. Open with the 120 hours stat (makes it concrete)
+2. Paint the "before" picture: teams drowning in spreadsheets, analysis always lagging
+3. The breaking point: costly promotional clash that could have been prevented
+4. The solution: Automated ingestion of retailer promotional grids, centralized dashboard
+5. Implementation: 8 weeks from start to first team live
+6. The "after" picture: Real-time visibility, proactive clash prevention, 10x faster decisions
+7. Quantified results: 120 hrs/month saved, +18% trade spend ROI, 10x decision speed
+8. CTA: "Is your team facing similar challenges?" or "Book a discovery call"
+
+MAKE IT RELATABLE:
+- Describe specific pain points (Friday afternoon scrambles, version control nightmares)
+- Use quotes from team members (anonymized)
+- Show before/after screenshots (if possible)
+- Emphasize that this is a real company, real results
+
+PROOF POINTS:
+- 14 customer teams across two regions
+- Real-time monitoring vs. 3-4 week delays
+- Specific features: feature space tracking, catalogue activity, price monitoring, mechanic analysis
+
+HASHTAGS: #CaseStudy #CPG #TradePromotion #ProcessAutomation #RGM

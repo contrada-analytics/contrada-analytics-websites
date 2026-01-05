@@ -1,0 +1,32 @@
+LINKEDIN POST IDEA #3: The Commercial-Technical Gap
+
+TARGET AUDIENCE: CPG executives, RGM leaders, data transformation leaders
+
+HOOK:
+Most technical consultants don't understand commercial reality.
+Most commercial advisors can't evaluate technical feasibility.
+This gap is costing CPG brands millions.
+
+KEY POINTS:
+- Technical teams build elegant solutions that commercial teams never adopt
+- Commercial teams request features that are technically impossible or prohibitively expensive
+- The sweet spot: someone who's sat in retailer negotiations AND architected data platforms
+- Real example: RGM system that technically worked but didn't align with how sales teams actually make decisions
+
+STRUCTURE:
+1. Set up the problem: two languages not communicating
+2. Share personal story: wearing both hats (sales/marketing AND platform engineering)
+3. Specific example of misalignment and its cost
+4. What changes when someone understands both sides
+5. How this shows up in project outcomes (adoption rates, ROI, user satisfaction)
+6. CTA: "Which side of the gap are you on?" or "Let's bridge this gap together"
+
+PERSONAL CREDIBILITY:
+- Led platform and data engineering teams
+- Held sales and marketing roles across multiple regions
+- Sat in retailer negotiations
+- Built commercial systems that actually get used
+
+TONE: Positioning unique value prop without being arrogant
+
+HASHTAGS: #CPG #RGM #DataStrategy #CommercialExcellence #TechLeadership

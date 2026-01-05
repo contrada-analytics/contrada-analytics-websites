@@ -1,0 +1,71 @@
+LINKEDIN POST IDEA #12: Build vs Buy: AI Solutions for Mid-Market CPG
+
+TARGET AUDIENCE: CPG executives, technology leaders, finance/investment decision-makers
+
+HOOK:
+"Should we build or buy?"
+
+I've heard this question 100 times from CPG leaders evaluating AI solutions.
+
+Here's the framework I use to answer it.
+
+KEY POINTS:
+- Neither "always build" nor "always buy" is right - it depends on strategic value and feasibility
+- Framework: Strategic differentiation vs. Complexity matrix
+- Most CPG companies should buy commodity capabilities, build competitive differentiators
+- Real ROI calculation includes opportunity cost and time-to-value
+- Hybrid approach often optimal: platform + custom components
+
+STRUCTURE:
+1. Open with the common dilemma
+2. Introduce the decision framework (2x2 matrix)
+3. Quadrant 1: Low differentiation, low complexity → BUY (e.g., BI tools, data warehouses)
+4. Quadrant 2: High differentiation, low complexity → BUILD (e.g., custom RGM logic)
+5. Quadrant 3: Low differentiation, high complexity → BUY (e.g., ERP systems)
+6. Quadrant 4: High differentiation, high complexity → PARTNER or HYBRID
+7. Real examples from CPG context
+8. The hidden costs in each approach
+9. CTA: "What are you trying to decide on?" or "Download build vs buy calculator"
+
+THE DECISION FRAMEWORK:
+
+ALWAYS BUY:
+- Infrastructure (cloud, databases, networking)
+- Commodity tools (BI, basic analytics, data visualization)
+- Heavily regulated capabilities (security, compliance)
+- Generic AI models (LLMs, computer vision)
+- Reason: No competitive advantage, high maintenance burden
+
+CONSIDER BUYING:
+- Industry-specific platforms (trade promotion management)
+- Established solutions with strong ecosystems
+- Capabilities outside core competency
+- Time-sensitive needs (faster than build)
+
+CONSIDER BUILDING:
+- Unique competitive differentiators (proprietary RGM algorithms)
+- Specific workflows that match your unique process
+- Integration layers between systems
+- When existing solutions don't fit your business model
+
+ALWAYS BUILD:
+- Core IP and competitive advantage
+- Capabilities that define your market position
+- When no viable solution exists
+- When strategic control is critical
+
+REAL CPG EXAMPLES:
+- Buy: Salesforce CRM, Tableau dashboards, AWS infrastructure
+- Build: Proprietary promotional optimization engine, custom retailer integration
+- Hybrid: Buy data platform (Snowflake), build custom RGM models on top
+
+THE ROI CALCULATION:
+Build costs: Development + ongoing maintenance + opportunity cost + talent acquisition
+Buy costs: Licensing + implementation + customization + vendor dependency risk
+
+TIME-TO-VALUE:
+- Buy: Weeks to months
+- Build: Months to years
+- Hybrid: Months (platform) + weeks (custom components)
+
+HASHTAGS: #BuildVsBuy #CPG #TechnologyStrategy #AIInvestment #DataPlatform

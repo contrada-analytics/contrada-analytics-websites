@@ -1,0 +1,44 @@
+LINKEDIN POST IDEA #9: Promotional Clash Prevention 101
+
+TARGET AUDIENCE: Customer marketing managers, trade marketing teams, category managers
+
+HOOK:
+A promotional clash just cost one of your competitors $400K.
+
+They had two customer teams running conflicting promotions at the same retailer.
+Same category. Same week. Different mechanics. Different price points.
+
+The retailer was furious. Both promotions underperformed.
+
+Here's how to prevent this.
+
+KEY POINTS:
+- What is a promotional clash: Overlapping promotions that cannibalize each other or confuse retailers/consumers
+- Why they happen: Siloed customer teams, manual calendars, no centralized visibility
+- Types of clashes: Geographic, temporal, mechanic, category, price point
+- Real cost: Lost revenue + damaged retailer relationships + wasted trade spend
+- Prevention: Real-time promotional calendar with automated clash detection
+
+STRUCTURE:
+1. Open with dramatic example of clash and its cost
+2. Define promotional clashes and why they're more common than you think
+3. Break down the types of clashes (with CPG-specific examples)
+4. The root cause: organizational structure + manual processes
+5. The solution: Centralized promotional calendar with rules engine
+6. How it works: Automated alerts when team A's promotion conflicts with team B's plan
+7. Implementation: What you need (data, rules, workflow, governance)
+8. CTA: "How many clashes happened last year?" or "Request clash audit"
+
+SPECIFIC EXAMPLES:
+- Feature space clash: Two teams both booking end-aisle at same retailer same week
+- Price point clash: Premium SKU on promotion same week as value SKU
+- Mechanic clash: BOGO conflicting with multi-buy
+- Catalogue activity clash: In-store promo conflicting with e-commerce campaign
+
+PREVENTION FRAMEWORK:
+- Centralized promotional calendar (all teams, all retailers)
+- Rule-based clash detection (configure your own business rules)
+- Approval workflows (escalation when clash detected)
+- Retailer-level coordination (ensure alignment with retailer priorities)
+
+HASHTAGS: #TradeMarketing #PromotionalPlanning #CPG #CustomerMarketing #RGM

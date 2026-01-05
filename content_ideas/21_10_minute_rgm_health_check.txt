@@ -1,0 +1,166 @@
+LINKEDIN POST IDEA #21: The 10-Minute RGM Health Check
+
+TARGET AUDIENCE: RGM leaders, CPG executives, pricing/revenue management teams
+
+HOOK:
+10 questions.
+10 minutes.
+
+You'll know exactly how healthy your RGM capabilities are—and where to focus.
+
+KEY POINTS:
+- Quick diagnostic for RGM capability health
+- 10 questions across key dimensions (data, process, technology, governance, people)
+- Scoring system to identify strengths and gaps
+- Actionable recommendations based on results
+- Can be done individually or with team
+
+STRUCTURE:
+1. Open with the value prop (10 min to clarity)
+2. Introduce the 10 questions
+3. Scoring guide (0-2 points per question, max 20)
+4. Interpretation of scores (0-7: Reactive, 8-14: Developing, 15-20: Advanced)
+5. Recommendations for each score range
+6. Call out specific questions where most companies struggle
+7. CTA: "Take the assessment" or "DM me your score for personalized recommendations"
+
+THE 10 QUESTIONS:
+
+Q1: DATA ACCESSIBILITY
+How long does it take to get post-promotion results?
+0 points: 3+ weeks
+1 point: 1-2 weeks
+2 points: Within 48 hours
+
+Q2: DATA INTEGRATION
+How many systems do you manually export from to analyze promotional performance?
+0 points: 5+ systems (e.g., ERP, retailer portals, Nielsen, IRI, TPM, spreadsheets)
+1 point: 2-4 systems
+2 points: 1 integrated platform or automated pipeline
+
+Q3: DECISION SPEED
+How often do you review and adjust RGM strategies?
+0 points: Quarterly or less frequently
+1 point: Monthly
+2 points: Weekly or real-time
+
+Q4: PREDICTIVE CAPABILITY
+Can you forecast promotional lift before executing?
+0 points: No, we rely on historical rules of thumb
+1 point: Sometimes, for major promotions, using manual analysis
+2 points: Yes, automated forecasting for all promotions
+
+Q5: ORGANIZATIONAL ALIGNMENT
+Do your customer teams coordinate promotional plans to avoid clashes?
+0 points: No centralized coordination, frequent clashes
+1 point: Manual coordination via meetings/email, occasional clashes
+2 points: Automated planning system with clash detection
+
+Q6: AUTOMATION LEVEL
+What percentage of your RGM analysis is automated vs. manual?
+0 points: 0-25% automated (mostly manual)
+1 point: 26-75% automated (mix)
+2 points: 76-100% automated (minimal manual work)
+
+Q7: INSIGHT TO ACTION
+How long from identifying a problem to implementing a solution?
+0 points: Weeks to months
+1 point: Days to weeks
+2 points: Hours to days
+
+Q8: TRADE SPEND VISIBILITY
+Can you see trade spend vs. budget by customer/SKU in real-time?
+0 points: No, requires manual consolidation from finance
+1 point: Yes, but updated weekly/monthly
+2 points: Yes, real-time dashboard
+
+Q9: TEAM CAPABILITY
+Does your team spend more time on data wrangling or strategic analysis?
+0 points: 70%+ on data wrangling
+1 point: 50/50 split
+2 points: 70%+ on strategic analysis
+
+Q10: ERROR RATE
+How often do you discover errors in promotional analysis/planning?
+0 points: Frequently (multiple per week)
+1 point: Occasionally (few per month)
+2 points: Rarely (few per quarter)
+
+SCORING:
+
+TOTAL YOUR POINTS (0-20):
+
+0-7 POINTS: REACTIVE
+Where you are:
+- Manual processes dominate
+- Analysis lags decisions by weeks
+- Frequent errors and firefighting
+- Team overwhelmed by administrative work
+
+Priority actions:
+1. Automate promotional data collection (eliminate 50% of manual work)
+2. Build centralized promotional calendar (prevent clashes)
+3. Weekly RGM reviews instead of monthly/quarterly
+
+Focus: Reduce administrative burden, increase decision frequency
+
+8-14 POINTS: DEVELOPING
+Where you are:
+- Some automation in place
+- Mix of manual and automated processes
+- Decent visibility but not real-time
+- Reactive more often than proactive
+
+Priority actions:
+1. Integrate data sources into single platform
+2. Implement predictive analytics for key decisions
+3. Accelerate insight-to-action cycle (days → hours)
+
+Focus: Increase automation, improve predictive capability
+
+15-20 POINTS: ADVANCED
+Where you are:
+- Highly automated processes
+- Real-time visibility and decision-making
+- Predictive analytics driving proactive decisions
+- Strategic focus rather than administrative burden
+
+Priority actions:
+1. Implement AI agents for autonomous monitoring
+2. Expand to adjacent use cases (pricing, assortment, etc.)
+3. Share capabilities across organization
+
+Focus: Scale best practices, continuous improvement
+
+COMMON PATTERNS:
+
+Most CPG companies score 6-12 (Reactive to Developing)
+
+Biggest gaps (questions where most score 0-1):
+- Q1: Data accessibility (still taking weeks)
+- Q2: Data integration (still exporting from 5+ systems)
+- Q6: Automation level (still 70%+ manual)
+- Q9: Team capability (still spending most time on data wrangling)
+
+Quick wins (highest ROI improvements):
+- Automate promotional data ingestion (Q1, Q2) → Saves 100+ hours/month
+- Build promotional calendar (Q5) → Prevents costly clashes
+- Weekly reviews instead of monthly (Q3) → 4x faster learning cycles
+
+PERSONALIZED FOLLOW-UP:
+
+Include in post: "Comment your score and I'll give you personalized recommendations for your situation"
+
+Or: "DM me your score + your biggest RGM pain point, I'll send you a customized action plan"
+
+DOWNLOADABLE VERSION:
+Offer PDF checklist with:
+- All 10 questions
+- Scoring sheet
+- Interpretation guide
+- Recommended actions by score range
+- Case examples of improvements
+
+TONE: Diagnostic, helpful, actionable (not judgmental)
+
+HASHTAGS: #RGM #CPG #RevenueGrowthManagement #SelfAssessment #ContinuousImprovement

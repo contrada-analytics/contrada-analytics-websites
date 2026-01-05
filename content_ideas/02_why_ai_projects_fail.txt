@@ -1,0 +1,31 @@
+LINKEDIN POST IDEA #2: Why Most AI Projects Fail in CPG (And How to Fix It)
+
+TARGET AUDIENCE: CPG executives, innovation leaders, digital transformation teams
+
+HOOK:
+I've watched dozens of AI projects deliver impressive demos... and then die.
+Here's why (and how to avoid it).
+
+KEY POINTS:
+- Most AI failures aren't technical - they're organizational
+- Common failure modes: no clear decision owner, solving the wrong problem, no integration with existing workflows
+- Success requires: AI maturity assessment first, alignment with strategic initiatives, clear ROI path
+- The "demo trap" - looks great in PowerPoint, never gets adopted
+
+STRUCTURE:
+1. Opening statement about AI project failure rate
+2. Share personal observation from 20+ years in industry
+3. List the 3-5 main reasons AI projects fail in CPG specifically
+4. Contrast with what successful implementations have in common
+5. Introduce framework: Assess → Align → Roadmap → Execute
+6. CTA: "Download our AI Readiness Assessment" or "Which failure mode have you seen?"
+
+KEY FRAMEWORKS TO MENTION:
+- AI maturity across people, process, technology, governance
+- Gap analysis: current capabilities vs. strategic needs
+- Build vs. buy decision framework
+- Prioritized roadmap linking AI investments to business outcomes
+
+TONE: Experienced practitioner sharing hard-won lessons, not theoretical consultant
+
+HASHTAGS: #AITransformation #CPG #DigitalTransformation #AIStrategy #RetailTech

@@ -1,0 +1,64 @@
+LINKEDIN POST IDEA #11: The AI Maturity Roadmap: Where Are You?
+
+TARGET AUDIENCE: CPG executives, digital transformation leaders, innovation teams
+
+HOOK:
+Most CPG companies think they're "not ready for AI."
+
+Actually, you're at one of four stages - and each stage has a clear next step.
+
+Here's the roadmap.
+
+KEY POINTS:
+- Four stages: Reactive, Developing, Defined, Optimized
+- Each stage has characteristics across people, process, technology, governance
+- You don't need to be "mature" to start - you need to know where you are and what's next
+- Self-assessment framework included
+- Most mid-market CPG brands are in "Developing" stage - perfect for targeted interventions
+
+STRUCTURE:
+1. Open by debunking "not ready for AI" myth
+2. Introduce the maturity framework (4 stages)
+3. Describe each stage with CPG-specific examples
+4. Self-assessment questions for each dimension (people, process, tech, governance)
+5. What to do at each stage (practical next steps)
+6. Case example: Company that went from Reactive to Defined in 12 months
+7. CTA: "Take the AI maturity assessment" or "Where is your organization today?"
+
+THE FOUR STAGES:
+
+STAGE 1 - REACTIVE:
+- People: No dedicated data/AI roles, ad-hoc analysis
+- Process: Manual, Excel-based, no standards
+- Technology: Disconnected systems, no data platform
+- Governance: None
+- Next step: Data inventory and use case prioritization
+
+STAGE 2 - DEVELOPING:
+- People: Small analytics team, limited AI expertise
+- Process: Some automation, inconsistent across teams
+- Technology: Basic BI tools, data still siloed
+- Governance: Informal policies
+- Next step: Build data platform, pilot 1-2 AI use cases
+
+STAGE 3 - DEFINED:
+- People: Established data/AI team, defined roles
+- Process: Standardized, documented, some automation
+- Technology: Integrated data platform, ML capabilities
+- Governance: Formal policies, ethical guidelines
+- Next step: Scale successful pilots, advanced analytics
+
+STAGE 4 - OPTIMIZED:
+- People: AI embedded across organization, continuous learning
+- Process: Fully automated, AI-augmented decision-making
+- Technology: Real-time data platform, production AI systems
+- Governance: Comprehensive, continuously improving
+- Next step: Innovation at the edge, competitive differentiation
+
+SELF-ASSESSMENT QUESTIONS:
+- How long does post-promotion analysis take? (hours vs. weeks)
+- Where is your data stored? (Excel vs. centralized platform)
+- Who makes decisions about AI tools? (ad-hoc vs. governed process)
+- How many AI/ML models in production? (0, 1-3, 4-10, 10+)
+
+HASHTAGS: #AIMaturity #DigitalTransformation #CPG #AIStrategy #DataDriven

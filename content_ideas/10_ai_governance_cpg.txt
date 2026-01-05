@@ -1,0 +1,45 @@
+LINKEDIN POST IDEA #10: AI Governance for CPG: What You Need Before Regulations Hit
+
+TARGET AUDIENCE: CPG legal/compliance, CDOs, CIOs, risk management teams
+
+HOOK:
+The EU AI Act is here.
+California's AI regulations are coming.
+Your CPG company is using AI (whether you know it or not).
+
+Do you have governance in place?
+
+KEY POINTS:
+- AI regulations are accelerating globally (EU AI Act, state-level US regulations)
+- CPG-specific risks: trade secrets in retailer negotiations, consumer-facing AI, supplier data sharing
+- Most companies have shadow AI usage they don't track
+- Governance isn't about blocking innovation - it's about enabling safe, fast adoption
+- Framework: Assess → Policy → Controls → Operating Model
+
+STRUCTURE:
+1. Open with regulatory landscape (creates urgency)
+2. CPG-specific AI risks that other industries don't face
+3. The governance gap: Most companies don't know where AI is being used
+4. What happens without governance: Regulatory exposure, data breaches, reputational risk
+5. The framework: Assessment, policy, controls, operating model
+6. Implementation roadmap: 90-day plan to get governance in place
+7. CTA: "Assess your AI governance maturity" or "Download CPG AI governance checklist"
+
+CPG-SPECIFIC CONSIDERATIONS:
+- Retailer data sharing agreements (can't expose competitive intelligence)
+- Trade secret protection (pricing algorithms, promotional strategies)
+- Consumer-facing AI (chatbots, personalization, product recommendations)
+- Supplier collaboration platforms (who owns the data and models?)
+- GDPR/CCPA compliance in consumer marketing
+
+GOVERNANCE FRAMEWORK:
+- Inventory of current AI usage across organization
+- Risk assessment tailored to CPG concerns
+- Policy development: acceptable use, model selection, vendor evaluation
+- Data privacy and security controls
+- Operating model: Who owns AI decisions? Who approves deployments?
+- Vendor management: How to evaluate AI tools and ensure compliance
+
+TONE: Practical, not alarmist. Governance enables innovation, doesn't block it.
+
+HASHTAGS: #AIGovernance #CPG #RiskManagement #DataPrivacy #AIRegulation

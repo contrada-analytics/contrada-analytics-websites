@@ -1,0 +1,47 @@
+LINKEDIN POST IDEA #8: "18 Data Sources, 3 Systems, 15 Countries - One Platform" - Case Study
+
+TARGET AUDIENCE: Global CPG executives, supply chain leaders, data transformation teams
+
+HOOK:
+They had data everywhere.
+ERP in Germany. Warehouse systems in Australia. Retailer portals across 15 countries.
+
+Their RGM team was drowning.
+
+Here's how we unified it.
+
+KEY POINTS:
+- Challenge: Global CPG manufacturer with fragmented data across regions and systems
+- 18 different data sources across 3 core systems spanning 15 countries
+- No unified view of RGM metrics, inventory, demand patterns, or supplier performance
+- Result: Real-time tracking, +35% ASP growth, 62% reduction in stock-outs
+
+STRUCTURE:
+1. Open with the complexity: 18 sources, 3 systems, 15 countries
+2. The impact of fragmentation: regional teams making decisions without full picture
+3. Specific failure story: Stock-out in key market because demand signal wasn't visible
+4. The integration challenge: Different languages, currencies, business rules, data standards
+5. Solution: Unified data platform connecting ERP, warehouse systems, retailer portals
+6. Implementation: Phased rollout, region by region
+7. Results: +35% ASP growth, -62% stock-outs, single source of truth for RGM
+8. CTA: "Facing similar data fragmentation?" or "Download integration playbook"
+
+TECHNICAL DETAILS (without being too technical):
+- Real-time data synchronization
+- Automated data quality checks
+- Regional customization with global standardization
+- Role-based dashboards for different user types
+
+BUSINESS OUTCOMES:
+- +35% ASP (Average Selling Price) growth
+- 62% reduction in stock-outs
+- Improved demand forecasting
+- Better supplier negotiations (data-backed)
+- Faster regional decision-making
+
+LESSONS LEARNED:
+- Start with one region/one use case, prove value, then scale
+- Data governance must precede technology
+- Regional buy-in is critical
+
+HASHTAGS: #DataIntegration #GlobalCPG #RGM #SupplyChain #DataPlatform

@@ -1,0 +1,78 @@
+LINKEDIN POST IDEA #15: The Day I Watched $2M Disappear in a Spreadsheet Error
+
+TARGET AUDIENCE: Finance, operations, risk management, CPG executives
+
+HOOK:
+$2 million.
+
+That's how much was lost because of a single formula error in a spreadsheet.
+
+I watched it happen. Here's what I learned.
+
+KEY POINTS:
+- True story (anonymized) of a costly spreadsheet error in promotional planning or trade spend
+- How it happened: Manual processes, version control issues, no validation
+- Why it wasn't caught: Lack of automated checks, time pressure, complexity
+- The aftermath: Financial impact, damaged relationships, organizational soul-searching
+- What changed: Automated systems with validation, elimination of manual steps
+- The lesson: Manual processes don't scale, and the risk compounds with complexity
+
+STRUCTURE:
+1. Open with the dollar amount (grabs attention)
+2. Set the scene: Critical business process, time pressure, complex calculations
+3. The error: How a simple mistake cascaded into major impact
+4. The discovery: How/when it was found (ideally too late to fully correct)
+5. The cost breakdown: Direct financial loss + opportunity cost + relationship damage
+6. Root cause analysis: Why manual processes create systemic risk
+7. What changed: The automated solution that prevents this now
+8. The broader lesson: When to automate vs. when manual is acceptable
+9. CTA: "What's your spreadsheet horror story?" or "Audit your critical processes"
+
+THE STORY (Adapt to real/anonymized experience):
+
+THE SETUP:
+- Large promotional event across multiple retailers
+- Complex trade spend calculations: discounts, rebates, volume bonuses, feature space costs
+- Multiple people contributing to the planning spreadsheet
+- Tight deadline for retailer submission
+
+THE ERROR:
+- Formula error in discount calculation (e.g., percentage applied to wrong base)
+- Propagated across 50+ SKUs and 3 retailers
+- Version control issue meant error was in "final" version
+- Promotional plan submitted and executed based on flawed numbers
+
+THE DISCOVERY:
+- Caught during post-promotion reconciliation (weeks later)
+- By then, commitments made, inventory positioned, marketing spend committed
+- Unable to fully unwind the impact
+
+THE COST:
+- Direct loss: $2M in margin erosion
+- Opportunity cost: Resources diverted to firefighting
+- Relationship impact: Damaged credibility with retail partners
+- Organizational cost: Weeks of stress, finger-pointing, process review
+
+THE ROOT CAUSE:
+- Manual spreadsheet with complex formulas
+- No automated validation or sanity checks
+- Version control via email and file naming
+- Time pressure preventing proper review
+- Reliance on individual expertise rather than systematic controls
+
+WHAT CHANGED:
+- Automated promotional planning system
+- Built-in validation rules (e.g., margin thresholds, volume sanity checks)
+- Approval workflows with multi-level review
+- Audit trail of all changes
+- Real-time alerts for anomalies
+
+THE LESSON:
+Manual processes are fine for simple, low-stakes work.
+For complex, high-stakes processes: AUTOMATE.
+
+The cost of automation is always less than the cost of the error you'll eventually make.
+
+TONE: Cautionary tale, not finger-pointing. Focus on systemic issue, not individual blame.
+
+HASHTAGS: #RiskManagement #CPG #ProcessAutomation #TradeSpend #LessonsLearned

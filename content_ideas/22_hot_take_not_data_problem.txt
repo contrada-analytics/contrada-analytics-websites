@@ -1,0 +1,194 @@
+LINKEDIN POST IDEA #22: Hot Take: Most CPG Brands Don't Have a Data Problem
+
+TARGET AUDIENCE: CPG executives, transformation leaders, anyone frustrated with "data initiatives"
+
+HOOK:
+Hot take:
+
+Most CPG brands don't have a data problem.
+
+They have a decision-making problem.
+
+Data is just the symptom.
+
+KEY POINTS:
+- Contrarian position: Data is rarely the root issue
+- Real issues: unclear decision rights, slow approval processes, risk-averse culture, lack of empowerment
+- Data becomes scapegoat for organizational dysfunction
+- Fixing data without fixing decision-making = expensive failure
+- Need to address both, but start with decision-making
+
+STRUCTURE:
+1. Open with the hot take
+2. Present the common narrative ("we need better data")
+3. Challenge it: What if data isn't the problem?
+4. Reframe: The real bottlenecks in decision-making
+5. Evidence: Companies with "worse" data that make better decisions
+6. The pattern: Organizational issues masquerading as technical issues
+7. How to diagnose: Is it data or decision-making?
+8. The fix: Address decision-making first, then data
+9. CTA: "Agree or disagree?" or "What's your experience?"
+
+THE COMMON NARRATIVE:
+
+"We can't make good decisions because we don't have good data"
+"If only we had better dashboards..."
+"We need to invest in a data lake/warehouse/platform..."
+"Our data is scattered across too many systems..."
+"We need more data scientists..."
+
+SOUNDS FAMILIAR? HERE'S THE PROBLEM:
+
+Even with perfect data, these companies still make slow, poor decisions.
+
+Why?
+
+THE REAL BOTTLENECKS:
+
+BOTTLENECK #1: UNCLEAR DECISION RIGHTS
+- Who decides? Multiple stakeholders, no clear owner
+- Data is perfect, but 6 people need to agree
+- Analysis-paralysis while seeking consensus
+- Decision gets escalated unnecessarily
+
+Example:
+Should we accept this promotional proposal from Retailer X?
+- Perfect data showing ROI
+- Category manager says yes
+- But needs approval from: Sales director, finance, RGM lead, GM
+- 3 weeks and 5 meetings later, opportunity lost
+
+THE ISSUE ISN'T DATA. IT'S GOVERNANCE.
+
+BOTTLENECK #2: RISK-AVERSE CULTURE
+- Need 100% certainty before deciding
+- Fear of being wrong > cost of being slow
+- Data becomes excuse to delay ("we need more analysis")
+- Committees instead of decision-makers
+
+Example:
+AI model forecasts 85% confidence of promotional success
+- Team wants to wait for 95% confidence
+- Runs more analysis, builds more models
+- Competitor moves first, captures the opportunity
+
+THE ISSUE ISN'T DATA. IT'S CULTURE.
+
+BOTTLENECK #3: LACK OF EMPOWERMENT
+- Front-line teams closest to insights but can't act
+- Decisions escalated unnecessarily
+- By the time approval comes, market has moved
+- Centralized decision-making doesn't scale
+
+Example:
+Account manager sees opportunity in retailer data
+- Has the insight, knows the action
+- Needs approval from 3 layers above
+- 2 weeks later, gets permission
+- Retailer has already allocated feature space elsewhere
+
+THE ISSUE ISN'T DATA. IT'S ORGANIZATIONAL STRUCTURE.
+
+BOTTLENECK #4: PROCESS COMPLEXITY
+- 17 steps to approve a promotional plan
+- Multiple systems, handoffs, approvals
+- Data exists but workflow is broken
+- Decision velocity killed by process friction
+
+Example:
+Real-time data shows promotion underperforming
+- Category manager knows what to do (tactical adjustment)
+- But process requires: Create proposal → Finance review → Legal review → Executive approval
+- By the time approved, promotion is over
+
+THE ISSUE ISN'T DATA. IT'S PROCESS.
+
+THE EVIDENCE:
+
+I've seen companies with "worse" data make better decisions:
+
+COMPANY A (Great data, slow decisions):
+- Enterprise data warehouse
+- Real-time dashboards
+- Advanced analytics team
+- Perfect data quality
+- Decision cycle: 4-6 weeks
+- Growth: Flat
+
+COMPANY B (Good enough data, fast decisions):
+- Connected spreadsheets
+- Basic dashboards
+- Small analytics team
+- 80% data quality
+- Decision cycle: Days
+- Growth: 15% YoY
+
+What's the difference? Decision-making culture and empowerment.
+
+THE PATTERN:
+
+Organizational dysfunction often masquerades as technical problems:
+
+"We need better data" really means:
+- "We can't agree on what to do" (decision rights issue)
+- "We're afraid to act on the data we have" (risk culture issue)
+- "We don't trust our people to decide" (empowerment issue)
+- "Our process is too slow" (workflow issue)
+
+Data becomes the scapegoat because it's easier to fix technology than culture.
+
+THE DIAGNOSTIC:
+
+Is it a data problem or decision-making problem?
+
+Ask yourself:
+1. If you had perfect data tomorrow, would decisions get made faster? (If no → decision-making problem)
+2. Do you already have data that isn't being acted on? (If yes → decision-making problem)
+3. Are decisions delayed by analysis or by approval? (If approval → decision-making problem)
+4. Can front-line people make decisions or must they escalate? (If escalate → decision-making problem)
+5. Do you need 95% certainty to act or is 80% enough? (If 95% → culture problem)
+
+THE FIX:
+
+ADDRESS DECISION-MAKING FIRST:
+
+1. CLARIFY DECISION RIGHTS
+- Who owns each type of decision?
+- What's the threshold for escalation?
+- Document and communicate
+
+2. EMPOWER FRONT-LINE
+- Push decisions down to people closest to the data
+- Clear guidelines, then trust
+- Monitor outcomes, not approvals
+
+3. ACCELERATE PROCESS
+- Remove unnecessary approval steps
+- Parallel workflows instead of sequential
+- Exception-based management (only escalate outliers)
+
+4. SHIFT CULTURE
+- Reward decision speed + learning, not just accuracy
+- Make "good decision with available data" acceptable
+- Distinguish reversible vs. irreversible decisions
+
+THEN IMPROVE DATA:
+
+5. AUTOMATE WHAT MATTERS
+- Focus data investments on decisions with highest impact
+- 80/20 rule: Automate the 20% that drives 80% of decisions
+- Good enough data fast > perfect data slow
+
+THE BOTTOM LINE:
+
+Perfect data + slow decisions = Expensive reporting
+Good enough data + fast decisions = Competitive advantage
+
+Fix decision-making first. Then data.
+
+ENGAGEMENT PROMPT:
+"Agree or disagree? Is your bottleneck data or decision-making?"
+
+TONE: Provocative but thoughtful, backed by real examples, invites discussion
+
+HASHTAGS: #DecisionMaking #CPG #OrganizationalDesign #DataStrategy #Leadership

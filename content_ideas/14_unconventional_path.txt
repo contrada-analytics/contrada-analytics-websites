@@ -1,0 +1,76 @@
+LINKEDIN POST IDEA #14: From Sales Floors to Data Platforms: An Unconventional Path
+
+TARGET AUDIENCE: Career-focused professionals, CPG practitioners, anyone interested in career pivots
+
+HOOK:
+I started in sales.
+Then marketing.
+Then platform engineering.
+Then data leadership.
+
+People ask, "How did that happen?"
+
+Here's how - and why it matters.
+
+KEY POINTS:
+- Unconventional career path across sales, marketing, engineering, data
+- Each role informed the next and created unique perspective
+- The value of cross-functional experience in solving complex problems
+- Why technical people should understand commercial reality (and vice versa)
+- How this diverse background shapes your approach today
+
+STRUCTURE:
+1. Open with the career path summary
+2. Role 1: Sales - what you learned about customer reality
+3. Role 2: Marketing - what you learned about positioning and messaging
+4. Role 3: Platform engineering - what you learned about building scalable systems
+5. Role 4: Data leadership - what you learned about organizational transformation
+6. The synthesis: How all these perspectives create unique problem-solving ability
+7. Real example: How this diverse background solved a specific client challenge
+8. CTA: "What's your unconventional path?" or "Which role taught you the most?"
+
+THE CAREER JOURNEY:
+
+SALES (Early Career):
+- Lessons: Customer needs are more nuanced than products suggest
+- Reality: The gap between what systems deliver and what sellers need
+- Key insight: If the tool doesn't help me close deals, I won't use it
+
+MARKETING (Mid Career):
+- Lessons: Positioning, messaging, understanding buyer psychology
+- Reality: Data without story doesn't drive action
+- Key insight: Features don't matter; outcomes do
+
+PLATFORM ENGINEERING (Career Shift):
+- Lessons: How to build scalable, reliable systems
+- Reality: Technical elegance means nothing if users don't adopt
+- Key insight: The best architecture is the one that gets used
+
+DATA LEADERSHIP (Current):
+- Lessons: Transformation is organizational, not just technical
+- Reality: Culture eats technology for breakfast
+- Key insight: People, process, then platform
+
+THE SYNTHESIS:
+- When building RGM platforms, I remember what it's like to be the sales rep who needs this data
+- When designing AI systems, I consider the marketing manager who has to trust the insights
+- When architecting solutions, I ensure they align with how commercial teams actually work
+- This cross-functional perspective prevents the "technically perfect but never adopted" trap
+
+REAL EXAMPLE:
+Client wanted sophisticated ML model for promotional forecasting.
+Sales background: Knew reps wouldn't trust a black box
+Marketing background: Understood they needed "why" not just "what"
+Engineering background: Built explainable AI with confidence intervals
+Data leadership: Ensured organizational change management supported adoption
+Result: System actually got used, delivered 18% ROI improvement
+
+THE ADVANTAGE:
+- Speak both commercial and technical languages fluently
+- Design solutions that are feasible AND usable
+- Bridge the gap that kills most projects
+- Build trust with both business and technical stakeholders
+
+TONE: Reflective, humble about the journey, clear about the value it creates
+
+HASHTAGS: #CareerPath #CPG #DataLeadership #ProfessionalGrowth #CrossFunctional

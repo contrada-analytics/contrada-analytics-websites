@@ -1,0 +1,156 @@
+LINKEDIN POST IDEA #20: 3 Questions Before Building Any AI Solution
+
+TARGET AUDIENCE: CPG executives, innovation leaders, anyone evaluating AI projects
+
+HOOK:
+Before you spend $500K and 6 months building an AI solution, answer these 3 questions:
+
+1. What decision will this enable?
+2. Who will use it daily?
+3. What happens if it's wrong?
+
+If you can't answer clearly, stop.
+
+KEY POINTS:
+- Most AI projects fail because they start with technology, not business problems
+- Simple framework to evaluate any AI initiative
+- Forces clarity on value, adoption, and risk
+- Can save companies from expensive failures
+- Works for both custom builds and vendor purchases
+
+STRUCTURE:
+1. Open with the 3 questions
+2. Why most AI projects fail (starting with cool tech instead of business need)
+3. Question 1 deep dive with examples (good and bad)
+4. Question 2 deep dive with examples (good and bad)
+5. Question 3 deep dive with examples (good and bad)
+6. How to use this framework (evaluation process)
+7. Real example: Project that passed all 3 vs. project that failed
+8. CTA: "Test your current AI project against these questions" or "Need help evaluating?"
+
+QUESTION 1: WHAT DECISION WILL THIS ENABLE?
+
+Why it matters:
+- AI without clear decision impact is just expensive reporting
+- Forces focus on business value, not technical elegance
+- Ensures measurable outcomes
+
+Good answers:
+- "Which SKUs to promote next quarter based on predicted lift and margin impact"
+- "Whether to accept or reject a retailer promotional proposal based on ROI forecast"
+- "How to reallocate trade spend across customers to maximize volume and margin"
+- "Which customers are at risk of delisting based on sales trends and competitive activity"
+
+Bad answers:
+- "Better insights into our promotional data" (too vague)
+- "Understanding customer behavior" (no decision specified)
+- "AI-powered analytics" (tech-first, not outcome-first)
+- "Exploring opportunities in machine learning" (exploration, not application)
+
+Red flags:
+- Can't specify the decision
+- Decision is made occasionally (quarterly) not regularly
+- Decision-maker not identified
+- No clear success metric
+
+QUESTION 2: WHO WILL USE IT DAILY?
+
+Why it matters:
+- AI tools that aren't used daily rarely get adopted
+- Identifies actual users (vs. hypothetical users)
+- Forces consideration of user workflow and change management
+- Prevents "build it and they will come" failures
+
+Good answers:
+- "Category managers checking promotional performance every morning"
+- "Customer marketing leads reviewing promotional plans during weekly planning"
+- "Field sales reps accessing account insights before customer meetings"
+- "RGM analysts running trade spend optimization scenarios daily"
+
+Bad answers:
+- "Senior leadership" (too busy, not daily users)
+- "Anyone who needs insights" (too broad, no ownership)
+- "The analytics team" (creates bottleneck, doesn't scale)
+- "We'll figure out who needs it after we build it" (adoption failure waiting to happen)
+
+Red flags:
+- Can't name specific roles/people
+- Daily use seems forced or unlikely
+- No connection to existing workflows
+- Requires "nice to have" not "must have" for user's job
+
+Test:
+- Would this person do their job worse without this tool?
+- If yes → likely to be adopted
+- If no → won't be used
+
+QUESTION 3: WHAT HAPPENS IF IT'S WRONG?
+
+Why it matters:
+- Defines acceptable accuracy threshold
+- Shapes architecture (human-in-loop vs. autonomous)
+- Determines risk management and governance needs
+- Sets realistic expectations
+
+Good answers (with appropriate risk mitigation):
+- "Wrong promotional forecast → Suboptimal trade spend allocation → Review by human before execution + confidence intervals shown"
+- "Wrong pricing recommendation → Margin erosion → Approval workflow for changes >5% + back-testing validation"
+- "Wrong demand forecast → Stock-out or overstock → Safety stock buffers + human review of outliers"
+
+Bad answers:
+- "It won't be wrong" (unrealistic, shows lack of risk thinking)
+- "We'll fix it if there's an issue" (reactive, no mitigation plan)
+- "Not sure" (haven't thought through consequences)
+- "Catastrophic business failure" (if true, AI might not be the answer)
+
+Risk framework:
+- LOW RISK: Wrong answer causes minor inconvenience → Automate fully
+- MEDIUM RISK: Wrong answer costs money/time → Human-in-the-loop approval
+- HIGH RISK: Wrong answer causes major financial/reputational damage → Human decision, AI advisory
+- CRITICAL RISK: Wrong answer could threaten business → Don't use AI, or extensive validation
+
+THE EVALUATION PROCESS:
+
+STEP 1: Answer all 3 questions in writing
+If you can't answer clearly, the project isn't ready
+
+STEP 2: Validate with actual users
+Show them mockups/examples, get honest feedback
+"Would you use this daily?" (Watch their reaction, not just what they say)
+
+STEP 3: Calculate ROI
+- Decision quality improvement (better outcomes)
+- Decision speed improvement (time savings)
+- Error reduction (risk mitigation)
+- Must exceed cost of building + maintaining
+
+STEP 4: Pilot before scaling
+- Start with one use case, one team
+- Prove it gets used daily
+- Demonstrate decision impact
+- Refine before expanding
+
+REAL EXAMPLES:
+
+PASSED ALL 3 (Success):
+Project: Promotional performance monitoring AI agent
+Q1: What decision? → Whether to continue, adjust, or stop promotions mid-flight
+Q2: Who uses daily? → 14 customer marketing managers checking performance each morning
+Q3: What if wrong? → Suboptimal promo, but human approves any tactical changes + confidence scores shown
+Result: Deployed successfully, 120 hrs/month saved, +18% trade spend ROI
+
+FAILED THE TEST (Avoided expensive mistake):
+Project: "AI-powered consumer insights platform"
+Q1: What decision? → "Better understanding of consumers" (not a decision)
+Q2: Who uses daily? → "Marketing team and insights team" (too vague)
+Q3: What if wrong? → "Unclear" (hadn't thought about it)
+Result: Project killed in discovery phase, saved $500K and 6 months
+
+THE BOTTOM LINE:
+AI is a tool, not a strategy.
+Start with the decision you need to make better/faster.
+Then ask: Can AI help?
+
+TONE: Pragmatic, prevents waste, empowering (gives people framework to evaluate)
+
+HASHTAGS: #AI #CPG #AIStrategy #DecisionMaking #Innovation
