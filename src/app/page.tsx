@@ -6,6 +6,7 @@ import { Problem } from "@/components/Problem"
 import { Services } from "@/components/Services"
 import { About } from "@/components/About"
 import { Process } from "@/components/Process"
+import { Vision } from "@/components/Vision"
 import { ContactForm } from "@/components/ContactForm"
 import { Footer } from "@/components/Footer"
 import { StructuredData } from "@/components/StructuredData"
@@ -23,6 +24,7 @@ export default function Home() {
       <Services />
       <About />
       <Process />
+      <Vision />
       <ContactForm />
       <Footer />
     </main>
