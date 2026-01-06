@@ -117,6 +117,28 @@ export function About() {
             </div>
           </div>
         </div>
+
+        <div className="mt-12 max-w-4xl mx-auto">
+          <div className="bg-white rounded-lg p-8 shadow-md">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              Building the CPG Automation Platform
+            </h3>
+            <div className="space-y-4 text-lg text-gray-700">
+              <p>
+                Every client engagement I take on solves a real problem—but it also adds another proven component to something bigger.
+              </p>
+              <p>
+                I'm building a comprehensive automation platform purpose-built for CPG and retail operations. The same patterns show up again and again: trade promotion analytics that take weeks instead of hours, inventory data scattered across six systems, manual reconciliation eating up your best people's time. These aren't unique problems. They deserve reusable solutions.
+              </p>
+              <p>
+                Right now, the best way to access this platform is by working with me directly. Each engagement deploys battle-tested modules while adding new capabilities to the stack. As the platform matures, I'll open access more broadly—giving mid-market CPG brands the same automation infrastructure that today only the giants can afford to build.
+              </p>
+              <p className="font-semibold text-gray-900">
+                If you want to be part of this journey—as an early client, a design partner, or just someone following along—I'd love to hear from you.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )
