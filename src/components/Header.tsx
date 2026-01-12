@@ -27,6 +27,9 @@ export function Header() {
             <Link href="#vision" className="hover:opacity-80 transition-opacity">
               The Vision
             </Link>
+            <Link href="/blog" className="hover:opacity-80 transition-opacity">
+              Blog
+            </Link>
             <Link href="#contact" className="hover:opacity-80 transition-opacity">
               Contact
             </Link>
