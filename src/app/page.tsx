@@ -1,6 +1,5 @@
 import { Header } from "@/components/Header"
 import { Hero } from "@/components/Hero"
-import { StatsBar } from "@/components/StatsBar"
 import { CaseStudies } from "@/components/CaseStudies"
 import { Problem } from "@/components/Problem"
 import { Services } from "@/components/Services"
@@ -14,11 +13,9 @@ import { StructuredData } from "@/components/StructuredData"
 export default function Home() {
   return (
     <main className="min-h-screen">
-      {/* Deployment test - 2025-12-23 14:30 */}
       <StructuredData />
       <Header />
       <Hero />
-      <StatsBar />
       <CaseStudies />
       <Problem />
       <Services />

@@ -3,33 +3,33 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 export function CaseStudies() {
   const cases = [
     {
-      title: "Large Consumer Brands Manufacturer",
-      subtitle: "Promotional Analytics Automation",
-      description: "Standardised and automated ingestion of retailer promotional grids for 8 customer teams in the UK and 6 Customer Teams in Australia to allow for real-time monitoring of promotional laydown based on feature space, catalogue activity, price and mechanic to help optimise against current and future trade spend, as well as avoid costly 'promotional clashes' between retailers.",
+      title: "Mid-Market CPG Brand",
+      subtitle: "Data Foundation Assessment & Roadmap",
+      description: "Conducted comprehensive 8-dimension maturity assessment for a $200M CPG brand struggling with fragmented data across 6 systems. Delivered prioritized 12-month roadmap that identified $2M in potential efficiency gains and a clear path from reactive reporting to proactive decision-making.",
       metrics: [
-        { label: "Time Saved", value: "120 hrs/month" },
-        { label: "Trade Spend ROI", value: "+18%" },
-        { label: "Decision Speed", value: "10x faster" }
+        { label: "Data Sources Mapped", value: "47 datasets" },
+        { label: "Efficiency Opportunity", value: "$2M identified" },
+        { label: "Time to Roadmap", value: "5 weeks" }
       ]
     },
     {
-      title: "Mid-Cap Pharmacy Retailer",
-      subtitle: "AI Agents for Workflow Automation",
-      description: "Deployed AI agents to automate repetitive workflows across sales operations, inventory forecasting, and retailer reporting. Agents handle data extraction, reconciliation, and insight generation autonomously.",
+      title: "PE-Backed Consumer Brand",
+      subtitle: "Infrastructure + Data Foundation Build",
+      description: "Built cloud data platform and governance framework for portfolio company preparing for exit. Migrated from spreadsheet-driven operations to unified data model with automated quality checks, enabling real-time trade spend visibility and compliant data practices.",
       metrics: [
-        { label: "Workflows Automated", value: "12+" },
-        { label: "Error Reduction", value: "94%" },
-        { label: "Cost Savings", value: "$180K/year" }
+        { label: "Manual Processes Eliminated", value: "12 workflows" },
+        { label: "Data Quality Score", value: "94% (from 62%)" },
+        { label: "Decision Cycle", value: "Weekly vs. Monthly" }
       ]
     },
     {
-      title: "Global CPG Manufacturer",
-      subtitle: "Integrated Analytics Platform for RGM",
-      description: "Built unified data platform connecting ERP, warehouse systems, and retailer portals to provide real-time tracking of RGM metrics, as well as visibility into inventory, demand patterns, and supplier performance.",
+      title: "Regional Retailer",
+      subtitle: "Analytics + Agentic Commerce Readiness",
+      description: "Deployed KPI framework and self-service analytics for category management team, then prepared product data infrastructure for AI-powered commerce. Machine-readable product attributes now power both internal analytics and external AI agent discovery.",
       metrics: [
-        { label: "Data Sources", value: "18 datasets in 3 systems across 15 countries" },
-        { label: "ASP Growth", value: "+35%" },
-        { label: "Stock-outs", value: "-62%" }
+        { label: "KPIs Consolidated", value: "200+ to 28 key metrics" },
+        { label: "Self-Service Adoption", value: "85% of analysts" },
+        { label: "AI-Ready Products", value: "15,000 SKUs" }
       ]
     }
   ]
@@ -37,11 +37,11 @@ export function CaseStudies() {
   return (
     <section id="case-studies" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center mb-4">Proven Results for CPG/Retail Brands</h2>
+        <h2 className="text-4xl font-bold text-center mb-4">Data Foundation Results</h2>
         <p className="text-xl text-gray-600 text-center mb-12">
-          Real outcomes from companies that chose to automate instead of reconcile
+          Real outcomes from companies that invested in their data foundation
         </p>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {cases.map((caseStudy, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">

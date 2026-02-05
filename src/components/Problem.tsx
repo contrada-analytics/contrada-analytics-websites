@@ -1,26 +1,26 @@
-import { AlertCircle, Clock, DollarSign, TrendingDown } from "lucide-react"
+import { AlertCircle, BarChart3, Database, Layers } from "lucide-react"
 
 export function Problem() {
   const problems = [
     {
-      icon: Clock,
-      title: "Weeks Lost to Spreadsheet Wrangling",
-      description: "Your commercial teams spend more time reconciling data than making decisions. Post-promotion analysis that should take hours stretches into weeks."
+      icon: BarChart3,
+      title: "Over-Invested in Dashboards",
+      description: "You've built dozens of reports and visualizations, but they're sitting on top of fragmented, inconsistent data. The insights they show can't be trusted, so decisions still get made on gut feel."
     },
     {
-      icon: DollarSign,
-      title: "Millions Left on the Table",
-      description: "Without real-time visibility into promotional performance and trade spend ROI, you're making decisions on gut feel instead of evidence—and leaving money on the table."
+      icon: Database,
+      title: "Under-Invested in Infrastructure",
+      description: "Your data lives in silos—ERP here, retailer portals there, spreadsheets everywhere. No unified view, no single source of truth, and a lot of manual work to connect the dots."
     },
     {
-      icon: TrendingDown,
-      title: "Promotional Clashes Cost You Revenue",
-      description: "Lack of coordination across customer teams leads to costly promotional overlaps, conflicting mechanics, and missed opportunities to optimize feature space."
+      icon: Layers,
+      title: "Missing Governance",
+      description: "Nobody knows who owns what data, how it's defined, or whether it can be trusted. Quality issues surface in executive presentations. The same metric means different things to different teams."
     },
     {
       icon: AlertCircle,
-      title: "Data Silos Block Strategic Decisions",
-      description: "Critical insights are trapped across SAP, retailer portals, Nielsen, and countless spreadsheets. Your team can't see the full picture when it matters."
+      title: "Architecture Built for Yesterday",
+      description: "Your current setup can't support what's coming. AI agents, real-time analytics, machine-readable product data—you're not ready, and retrofitting is harder than building right the first time."
     }
   ]
 
@@ -28,9 +28,9 @@ export function Problem() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-[#08314d]">The Hidden Cost of Manual Processes and Data Wragling </h2>
+          <h2 className="text-4xl font-bold mb-4 text-[#08314d]">The Real Problem with Most Data Initiatives</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            While your competitors automate, your team is stuck in spreadsheets—and it's costing you more than time
+            Companies over-invest in the visible parts of analytics and under-invest in what makes analytics actually work
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export function Problem() {
 
         <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
           <p className="text-lg text-gray-700">
-            <strong className="text-[#08314d]">The bottom line:</strong> Every minute spent on manual data consolidation and analysis is time your team is not spending on finding ways to sell more stock, to more people, in a profitable way. Your competitors with automated systems are spending more time on value-added activities, and winning.
+            <strong className="text-[#08314d]">The bottom line:</strong> You can't build lasting analytics value on a shaky foundation. The companies winning with data aren't the ones with the most dashboards—they're the ones with infrastructure, governance, and architecture that make their data actually trustworthy and usable.
           </p>
         </div>
       </div>
