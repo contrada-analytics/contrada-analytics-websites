@@ -22,7 +22,7 @@ export default function BlogPage() {
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <header className="mb-16 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#08314d] mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#0F1B2D] mb-4">
             Blog
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -39,7 +39,7 @@ export default function BlogPage() {
             >
               <Card className="h-full hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <CardTitle className="text-2xl text-[#08314d] group-hover:opacity-80 transition-opacity">
+                  <CardTitle className="text-2xl text-[#0F1B2D] group-hover:opacity-80 transition-opacity">
                     {post.title}
                   </CardTitle>
                   <CardDescription className="text-gray-600">

@@ -23,7 +23,7 @@ export default function AnalyticsDesignDeploymentPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/#services" className="inline-flex items-center text-white/80 hover:text-white mb-6">
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -33,7 +33,7 @@ export default function AnalyticsDesignDeploymentPage() {
             <span className="text-6xl font-bold text-white/20">04</span>
             <h1 className="text-4xl md:text-5xl font-bold">Analytics Design & Deployment</h1>
           </div>
-          <p className="text-xl italic text-[#a5b4fc] mb-4">Less is more — tracking only what moves the business forward</p>
+          <p className="text-xl italic text-[#87CEEB] mb-4">Less is more — tracking only what moves the business forward</p>
           <p className="text-xl opacity-95 max-w-3xl">
             KPI frameworks tied to strategy, dashboard implementation, self-service analytics enablement, and analyst training. Focused metrics that drive decisions, not dashboard sprawl.
           </p>
@@ -41,21 +41,21 @@ export default function AnalyticsDesignDeploymentPage() {
       </section>
 
       {/* TL;DR */}
-      <section className="py-12 bg-gray-50 border-l-4 border-[#673DE6]">
+      <section className="py-12 bg-gray-50 border-l-4 border-[#2E74B5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <h2 className="text-2xl font-bold mb-4 text-[#08314d]">TL;DR</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#0F1B2D]">TL;DR</h2>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>What:</strong> KPI framework + dashboard implementation + self-service enablement + analyst training</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Impact:</strong> Analytics that drive decisions instead of gathering dust—focused, actionable, and adopted</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Timeline:</strong> 6-12 weeks depending on scope and number of dashboards</span>
               </li>
             </ul>
@@ -68,7 +68,7 @@ export default function AnalyticsDesignDeploymentPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-[#08314d]">Stop Building Dashboards Nobody Uses</h2>
+              <h2 className="text-3xl font-bold mb-6 text-[#0F1B2D]">Stop Building Dashboards Nobody Uses</h2>
               <p className="text-gray-600 mb-4">
                 Most organizations have too many dashboards. Hundreds of reports, dozens of KPIs, and nobody can tell you which ones actually matter. Teams spend hours building visualizations that get looked at once and forgotten.
               </p>
@@ -80,7 +80,7 @@ export default function AnalyticsDesignDeploymentPage() {
               </p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4 text-[#08314d]">Key Deliverables</h3>
+              <h3 className="text-2xl font-bold mb-4 text-[#0F1B2D]">Key Deliverables</h3>
               <ul className="space-y-3">
                 {[
                   "KPI framework tied to business strategy",
@@ -104,7 +104,7 @@ export default function AnalyticsDesignDeploymentPage() {
       {/* Our Approach */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">Our Approach</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">Our Approach</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -124,9 +124,9 @@ export default function AnalyticsDesignDeploymentPage() {
               }
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3 text-[#08314d]">{item.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 text-[#0F1B2D]">{item.title}</h3>
                 <p className="text-gray-600 mb-4">{item.description}</p>
-                <div className="bg-[#673DE6]/10 text-[#673DE6] px-4 py-2 rounded font-medium text-sm">
+                <div className="bg-[#2E74B5]/10 text-[#2E74B5] px-4 py-2 rounded font-medium text-sm">
                   {item.principle}
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function AnalyticsDesignDeploymentPage() {
       {/* Tool Agnostic */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">Tool Agnostic</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">Tool Agnostic</h2>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-gray-600 text-lg mb-8">
               We work with whatever BI tools you have or choose. The principles of good analytics design are universal—the tool is just the delivery mechanism.
@@ -157,7 +157,7 @@ export default function AnalyticsDesignDeploymentPage() {
       {/* What We Deliver */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">What We Deliver</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">What We Deliver</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
@@ -198,7 +198,7 @@ export default function AnalyticsDesignDeploymentPage() {
               }
             ].map((section, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-[#08314d]">{section.title}</h3>
+                <h3 className="text-xl font-semibold mb-4 text-[#0F1B2D]">{section.title}</h3>
                 <ul className="space-y-2">
                   {section.items.map((item, idx) => (
                     <li key={idx} className="flex items-start">
@@ -216,7 +216,7 @@ export default function AnalyticsDesignDeploymentPage() {
       {/* Typical Engagement */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white rounded-lg p-8">
+          <div className="bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white rounded-lg p-8">
             <h3 className="text-2xl font-bold mb-6 text-center">How It Works</h3>
             <div className="grid md:grid-cols-4 gap-6">
               {[
@@ -226,7 +226,7 @@ export default function AnalyticsDesignDeploymentPage() {
                 { phase: "Week 10-12", title: "Launch", description: "Training, rollout, adoption monitoring, optimization" }
               ].map((step, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-sm text-[#a5b4fc] mb-2">{step.phase}</div>
+                  <div className="text-sm text-[#87CEEB] mb-2">{step.phase}</div>
                   <div className="text-xl font-bold mb-2">{step.title}</div>
                   <div className="text-gray-200 text-sm">{step.description}</div>
                 </div>
@@ -237,13 +237,13 @@ export default function AnalyticsDesignDeploymentPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="py-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready for Analytics That Drive Decisions?</h2>
           <p className="text-xl mb-8 opacity-95">
             Let's discuss how to build analytics that earn their place in your organization.
           </p>
-          <Button asChild size="lg" className="bg-white text-[#08314d] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
+          <Button asChild size="lg" className="bg-white text-[#0F1B2D] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
             <Link href="/#contact">Book a 30-Minute Call</Link>
           </Button>
         </div>

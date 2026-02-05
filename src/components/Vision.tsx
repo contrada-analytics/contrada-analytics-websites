@@ -30,26 +30,26 @@ export function Vision() {
           </p>
 
           <div className="bg-gray-50 rounded-lg p-6 my-8">
-            <h4 className="text-xl font-bold text-[#08314d] mb-4">The Journey</h4>
+            <h4 className="text-xl font-bold text-[#0F1B2D] mb-4">The Journey</h4>
             <div className="grid md:grid-cols-5 gap-4 text-center text-sm">
               <div className="bg-white p-4 rounded shadow-sm">
-                <div className="font-bold text-[#673DE6]">Diagnose</div>
+                <div className="font-bold text-[#2E74B5]">Diagnose</div>
                 <div className="text-gray-500">Know where you stand</div>
               </div>
               <div className="bg-white p-4 rounded shadow-sm">
-                <div className="font-bold text-[#673DE6]">Build</div>
+                <div className="font-bold text-[#2E74B5]">Build</div>
                 <div className="text-gray-500">Infrastructure + data</div>
               </div>
               <div className="bg-white p-4 rounded shadow-sm">
-                <div className="font-bold text-[#673DE6]">Activate</div>
+                <div className="font-bold text-[#2E74B5]">Activate</div>
                 <div className="text-gray-500">Analytics that drive action</div>
               </div>
               <div className="bg-white p-4 rounded shadow-sm">
-                <div className="font-bold text-[#673DE6]">Future-Proof</div>
+                <div className="font-bold text-[#2E74B5]">Future-Proof</div>
                 <div className="text-gray-500">Agentic commerce ready</div>
               </div>
               <div className="bg-white p-4 rounded shadow-sm">
-                <div className="font-bold text-[#673DE6]">Sustain</div>
+                <div className="font-bold text-[#2E74B5]">Sustain</div>
                 <div className="text-gray-500">Ongoing value creation</div>
               </div>
             </div>
@@ -63,7 +63,7 @@ export function Vision() {
 
           <p className="font-semibold text-gray-900">
             If you're ready to stop treating data as a cost center and start treating it as the competitive
-            weapon it should be—<Link href="#contact" className="text-[#673DE6] hover:underline">let's talk</Link>.
+            weapon it should be—<Link href="#contact" className="text-[#2E74B5] hover:underline">let's talk</Link>.
           </p>
         </div>
       </div>

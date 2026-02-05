@@ -45,7 +45,7 @@ export function CaseStudies() {
         <div className="grid md:grid-cols-3 gap-8">
           {cases.map((caseStudy, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
-              <CardHeader className="bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+              <CardHeader className="bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
                 <CardTitle>{caseStudy.title}</CardTitle>
                 <CardDescription className="text-gray-200">
                   {caseStudy.subtitle}
@@ -57,7 +57,7 @@ export function CaseStudies() {
                   {caseStudy.metrics.map((metric, idx) => (
                     <div key={idx} className="flex justify-between items-center bg-gray-50 p-3 rounded-lg">
                       <span className="font-semibold text-gray-600">{metric.label}</span>
-                      <span className="text-[#08314d] font-bold text-lg">{metric.value}</span>
+                      <span className="text-[#0F1B2D] font-bold text-lg">{metric.value}</span>
                     </div>
                   ))}
                 </div>

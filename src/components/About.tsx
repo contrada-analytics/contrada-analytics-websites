@@ -49,14 +49,14 @@ export function About() {
 
         {/* Principles Section */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-center mb-8 text-[#08314d]">Our Principles</h3>
+          <h3 className="text-2xl font-bold text-center mb-8 text-[#0F1B2D]">Our Principles</h3>
           <div className="grid md:grid-cols-5 gap-6">
             {principles.map((principle, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] rounded-lg flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] rounded-lg flex items-center justify-center mx-auto mb-4">
                   <principle.icon className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="text-lg font-semibold mb-2 text-[#08314d]">{principle.title}</h4>
+                <h4 className="text-lg font-semibold mb-2 text-[#0F1B2D]">{principle.title}</h4>
                 <p className="text-gray-600 text-sm">{principle.description}</p>
               </div>
             ))}
@@ -66,10 +66,10 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] rounded-lg flex items-center justify-center mb-4">
                 <DollarSign className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4 text-[#08314d]">We Know Where the Money Leaks</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-[#0F1B2D]">We Know Where the Money Leaks</h3>
               <p className="text-gray-600 text-left mb-3">
                 Trade spend optimisation, RGM, promotional analytics—these aren't abstract concepts to us.
                 We've built the integrations that connect finance, sales, and supply chain data.
@@ -86,10 +86,10 @@ export function About() {
 
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4 text-[#08314d]">Technical Depth, Commercial Instinct</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-[#0F1B2D]">Technical Depth, Commercial Instinct</h3>
               <p className="text-gray-600 text-left mb-3">
                 Most technical consultants don't understand commercial reality. Most commercial advisors can't
                 evaluate technical feasibility.
@@ -106,10 +106,10 @@ export function About() {
 
           <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] rounded-lg flex items-center justify-center mb-4">
                 <TrendingUp className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4 text-[#08314d]">Results in Weeks, Not Quarters</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-[#0F1B2D]">Results in Weeks, Not Quarters</h3>
               <p className="text-gray-600 text-left mb-3">
                 We don't deliver strategy decks that sit on shelves. We focus on practical implementations with
                 measurable outcomes.
@@ -126,7 +126,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white rounded-lg p-8">
+        <div className="bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white rounded-lg p-8">
           <h3 className="text-2xl font-bold mb-8 text-center">Who We Work With</h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">

@@ -23,7 +23,7 @@ export default function InfrastructureToolingBuildPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/#services" className="inline-flex items-center text-white/80 hover:text-white mb-6">
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -33,7 +33,7 @@ export default function InfrastructureToolingBuildPage() {
             <span className="text-6xl font-bold text-white/20">02</span>
             <h1 className="text-4xl md:text-5xl font-bold">Infrastructure & Tooling Build</h1>
           </div>
-          <p className="text-xl italic text-[#a5b4fc] mb-4">The technical foundation everything else depends on</p>
+          <p className="text-xl italic text-[#87CEEB] mb-4">The technical foundation everything else depends on</p>
           <p className="text-xl opacity-95 max-w-3xl">
             Cloud architecture, data platform implementation, ingestion pipelines, transformation layers, CI/CD, and security frameworks. The technical backbone that makes everything else possible.
           </p>
@@ -41,21 +41,21 @@ export default function InfrastructureToolingBuildPage() {
       </section>
 
       {/* TL;DR */}
-      <section className="py-12 bg-gray-50 border-l-4 border-[#673DE6]">
+      <section className="py-12 bg-gray-50 border-l-4 border-[#2E74B5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <h2 className="text-2xl font-bold mb-4 text-[#08314d]">TL;DR</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#0F1B2D]">TL;DR</h2>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>What:</strong> Cloud architecture + data platform + pipelines + transformations + CI/CD + security framework</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Impact:</strong> A modern, scalable technical foundation that can handle whatever you throw at it</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Timeline:</strong> 8-16 weeks depending on scope and complexity</span>
               </li>
             </ul>
@@ -68,7 +68,7 @@ export default function InfrastructureToolingBuildPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-[#08314d]">Build It Right the First Time</h2>
+              <h2 className="text-3xl font-bold mb-6 text-[#0F1B2D]">Build It Right the First Time</h2>
               <p className="text-gray-600 mb-4">
                 Too many data initiatives fail because they're built on shaky foundations. Teams spend months building dashboards on top of fragmented data sources, manual pipelines, and ad-hoc infrastructure—then wonder why nothing scales.
               </p>
@@ -80,7 +80,7 @@ export default function InfrastructureToolingBuildPage() {
               </p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4 text-[#08314d]">Key Deliverables</h3>
+              <h3 className="text-2xl font-bold mb-4 text-[#0F1B2D]">Key Deliverables</h3>
               <ul className="space-y-3">
                 {[
                   "Cloud architecture design (AWS/Azure/GCP)",
@@ -106,7 +106,7 @@ export default function InfrastructureToolingBuildPage() {
       {/* Technology Stack */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">Technology Stack</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">Technology Stack</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -141,10 +141,10 @@ export default function InfrastructureToolingBuildPage() {
               }
             ].map((stack, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3 text-[#08314d]">{stack.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 text-[#0F1B2D]">{stack.title}</h3>
                 <div className="flex flex-wrap gap-2 mb-3">
                   {stack.items.map((item, idx) => (
-                    <span key={idx} className="bg-[#673DE6]/10 text-[#673DE6] px-3 py-1 rounded-full text-sm">
+                    <span key={idx} className="bg-[#2E74B5]/10 text-[#2E74B5] px-3 py-1 rounded-full text-sm">
                       {item}
                     </span>
                   ))}
@@ -159,7 +159,7 @@ export default function InfrastructureToolingBuildPage() {
       {/* Client Outcomes */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">What You'll Walk Away With</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">What You'll Walk Away With</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -175,8 +175,8 @@ export default function InfrastructureToolingBuildPage() {
                 description: "Your team trained and equipped to operate and extend the platform. We build with you, not just for you."
               }
             ].map((outcome, index) => (
-              <div key={index} className="bg-gray-50 p-6 rounded-lg border-t-4 border-[#673DE6]">
-                <h3 className="text-xl font-semibold mb-3 text-[#08314d]">{outcome.title}</h3>
+              <div key={index} className="bg-gray-50 p-6 rounded-lg border-t-4 border-[#2E74B5]">
+                <h3 className="text-xl font-semibold mb-3 text-[#0F1B2D]">{outcome.title}</h3>
                 <p className="text-gray-600">{outcome.description}</p>
               </div>
             ))}
@@ -187,7 +187,7 @@ export default function InfrastructureToolingBuildPage() {
       {/* Typical Engagement */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white rounded-lg p-8">
+          <div className="bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white rounded-lg p-8">
             <h3 className="text-2xl font-bold mb-6 text-center">How It Works</h3>
             <div className="grid md:grid-cols-4 gap-6">
               {[
@@ -197,7 +197,7 @@ export default function InfrastructureToolingBuildPage() {
                 { phase: "Week 13-16", title: "Handover", description: "Documentation, training, operational readiness" }
               ].map((step, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-sm text-[#a5b4fc] mb-2">{step.phase}</div>
+                  <div className="text-sm text-[#87CEEB] mb-2">{step.phase}</div>
                   <div className="text-xl font-bold mb-2">{step.title}</div>
                   <div className="text-gray-200 text-sm">{step.description}</div>
                 </div>
@@ -208,13 +208,13 @@ export default function InfrastructureToolingBuildPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="py-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Build Your Technical Foundation?</h2>
           <p className="text-xl mb-8 opacity-95">
             Let's discuss your infrastructure needs and design a platform that scales with your business.
           </p>
-          <Button asChild size="lg" className="bg-white text-[#08314d] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
+          <Button asChild size="lg" className="bg-white text-[#0F1B2D] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
             <Link href="/#contact">Book a 30-Minute Call</Link>
           </Button>
         </div>

@@ -76,10 +76,10 @@ export function Services() {
                 <CardHeader>
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-4xl font-bold text-gray-200">{service.number}</span>
-                    <service.icon className="w-10 h-10 text-[#673DE6]" />
+                    <service.icon className="w-10 h-10 text-[#2E74B5]" />
                   </div>
-                  <CardTitle className="text-[#08314d]">{service.title}</CardTitle>
-                  <CardDescription className="italic text-[#673DE6]">{service.tagline}</CardDescription>
+                  <CardTitle className="text-[#0F1B2D]">{service.title}</CardTitle>
+                  <CardDescription className="italic text-[#2E74B5]">{service.tagline}</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col">
                   <p className="text-gray-600 text-sm mb-4 flex-grow">{service.description}</p>

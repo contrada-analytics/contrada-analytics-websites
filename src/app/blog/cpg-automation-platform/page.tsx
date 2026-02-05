@@ -14,11 +14,11 @@ export default function CPGAutomationPlatformPost() {
         <header className="mb-12">
           <Link
             href="/blog"
-            className="text-[#08314d] hover:opacity-80 mb-6 inline-block"
+            className="text-[#0F1B2D] hover:opacity-80 mb-6 inline-block"
           >
             ← Back to Blog
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#08314d] mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#0F1B2D] mb-4">
             Why I'm Building a CPG Automation Platform (And What 20 Years Taught Me)
           </h1>
           <div className="text-gray-600">
@@ -27,7 +27,7 @@ export default function CPGAutomationPlatformPost() {
         </header>
 
         <div className="prose prose-lg max-w-none">
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">Opening Hook</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">Opening Hook</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             In my mid-twenties, I transitioned from a sales and account management role—working on one of the UK's biggest customer accounts—to an internal 'retail marketing' position. That's when I noticed something odd.
@@ -45,7 +45,7 @@ export default function CPGAutomationPlatformPost() {
             I remember thinking: "This can't be normal." But it was. And twenty years later, across multiple companies and countries, I'm still seeing the same problem.
           </p>
 
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">The Pattern Recognition</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">The Pattern Recognition</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             Over the next two decades, I worked across multiple CPG companies in different countries. The names changed. The products changed. The markets changed. But the problems? They were eerily similar.
@@ -71,7 +71,7 @@ export default function CPGAutomationPlatformPost() {
             <strong>Key person risk.</strong> The analyst who built that complex spreadsheet everyone relies on for quarterly planning? They just left the company. Now nobody knows how it works or how to update it. I've seen multi-million dollar decisions delayed because the one person who understood the model was gone.
           </p>
 
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">Why These Problems Persist</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">Why These Problems Persist</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             If these problems are so common, why hasn't someone solved them? The answer is simple: the solutions that exist weren't built for mid-market CPG brands.
@@ -97,7 +97,7 @@ export default function CPGAutomationPlatformPost() {
             The mid-market has been stuck between enterprise complexity and spreadsheet chaos. That gap is what I'm building to fill.
           </p>
 
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">The Realization</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">The Realization</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             The turning point came when I moved to our Australian subsidiary.
@@ -135,7 +135,7 @@ export default function CPGAutomationPlatformPost() {
             So I made a decision: build the platform. Make it reusable. Make it deployable behind a client's firewall for those concerned about data privacy. And most importantly, build it against real client problems, not theoretical ones.
           </p>
 
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">What I'm Building</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">What I'm Building</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             A CPG automation platform that handles the 80% of work that's the same across every company, so your team can focus on the 20% that's actually strategic.
@@ -169,7 +169,7 @@ export default function CPGAutomationPlatformPost() {
             And because it can be deployed behind your firewall, you maintain complete control over your data. No concerns about leakage or privacy.
           </p>
 
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">How I'm Building It</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">How I'm Building It</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             This isn't vaporware or a theoretical framework. I'm building this platform through real client engagements, one proven module at a time.
@@ -195,7 +195,7 @@ export default function CPGAutomationPlatformPost() {
             This is the opposite of how most software is built. I'm not raising millions, hiring a team, and hoping the market wants what we create. I'm proving the need first, building the solution second, and letting real client value drive every decision.
           </p>
 
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">Who This Is For</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">Who This Is For</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             This platform is built for mid-market CPG brands and retailers—companies doing $50-500M in revenue who are stuck in no-man's-land.
@@ -221,7 +221,7 @@ export default function CPGAutomationPlatformPost() {
             If you're a commercial leader who's tired of your team spending 80% of their time on data wrangling and 20% on actual analysis, this is for you. If you're frustrated watching talented analysts do work that should be automated, this is for you. If you know your data problems are solvable but can't afford the enterprise solution, this is for you.
           </p>
 
-          <h2 className="text-3xl font-bold text-[#08314d] mt-12 mb-4">Join the Journey</h2>
+          <h2 className="text-3xl font-bold text-[#0F1B2D] mt-12 mb-4">Join the Journey</h2>
 
           <p className="mb-4 text-gray-700 leading-relaxed">
             I'm building this platform in public because I believe the CPG industry needs it—and I want to build it with the people who will use it.
@@ -249,14 +249,14 @@ export default function CPGAutomationPlatformPost() {
 
           <div className="border-t border-gray-200 pt-8 mt-12">
             <p className="text-gray-600 italic">
-              Jason Contrada | Founder, DataArk Labs | <a href="https://linkedin.com/in/yourprofile" className="text-[#08314d] hover:opacity-80">Connect on LinkedIn</a>
+              Jason Contrada | Founder, DataArk Labs | <a href="https://linkedin.com/in/yourprofile" className="text-[#0F1B2D] hover:opacity-80">Connect on LinkedIn</a>
             </p>
           </div>
 
           <div className="mt-12">
             <Button
               asChild
-              className="bg-[#08314d] text-white hover:bg-[#1a4a6b] rounded-full font-semibold"
+              className="bg-[#0F1B2D] text-white hover:bg-[#2A3F5F] rounded-full font-semibold"
             >
               <Link href="/#contact">Get in Touch</Link>
             </Button>

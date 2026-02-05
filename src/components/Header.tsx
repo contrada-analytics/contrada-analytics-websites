@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export function Header() {
   return (
-    <header className="fixed top-0 w-full z-50 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white shadow-lg">
+    <header className="fixed top-0 w-full z-50 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white shadow-lg">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
@@ -37,7 +37,7 @@ export function Header() {
 
           <Button 
             asChild
-            className="bg-white text-[#08314d] hover:bg-gray-100 rounded-full font-semibold"
+            className="bg-white text-[#0F1B2D] hover:bg-gray-100 rounded-full font-semibold"
           >
             <Link href="#contact">Get Started</Link>
           </Button>

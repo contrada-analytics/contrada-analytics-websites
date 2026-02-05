@@ -28,7 +28,7 @@ export function Problem() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-[#08314d]">The Real Problem with Most Data Initiatives</h2>
+          <h2 className="text-4xl font-bold mb-4 text-[#0F1B2D]">The Real Problem with Most Data Initiatives</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Companies over-invest in the visible parts of analytics and under-invest in what makes analytics actually work
           </p>
@@ -44,7 +44,7 @@ export function Problem() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-xl font-semibold mb-2 text-[#08314d]">{problem.title}</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-[#0F1B2D]">{problem.title}</h3>
                   <p className="text-gray-600">{problem.description}</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export function Problem() {
 
         <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
           <p className="text-lg text-gray-700">
-            <strong className="text-[#08314d]">The bottom line:</strong> You can't build lasting analytics value on a shaky foundation. The companies winning with data aren't the ones with the most dashboards—they're the ones with infrastructure, governance, and architecture that make their data actually trustworthy and usable.
+            <strong className="text-[#0F1B2D]">The bottom line:</strong> You can't build lasting analytics value on a shaky foundation. The companies winning with data aren't the ones with the most dashboards—they're the ones with infrastructure, governance, and architecture that make their data actually trustworthy and usable.
           </p>
         </div>
       </div>

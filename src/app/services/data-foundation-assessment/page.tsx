@@ -23,7 +23,7 @@ export default function DataFoundationAssessmentPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/#services" className="inline-flex items-center text-white/80 hover:text-white mb-6">
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -33,7 +33,7 @@ export default function DataFoundationAssessmentPage() {
             <span className="text-6xl font-bold text-white/20">01</span>
             <h1 className="text-4xl md:text-5xl font-bold">Data Foundation Assessment</h1>
           </div>
-          <p className="text-xl italic text-[#a5b4fc] mb-4">Where you are today — and what to do about it</p>
+          <p className="text-xl italic text-[#87CEEB] mb-4">Where you are today — and what to do about it</p>
           <p className="text-xl opacity-95 max-w-3xl">
             A comprehensive diagnostic of your data ecosystem that delivers a prioritized 12-month roadmap. We assess maturity across 8 dimensions, audit your infrastructure, and identify the gaps between where you are and where you need to be.
           </p>
@@ -41,21 +41,21 @@ export default function DataFoundationAssessmentPage() {
       </section>
 
       {/* TL;DR */}
-      <section className="py-12 bg-gray-50 border-l-4 border-[#673DE6]">
+      <section className="py-12 bg-gray-50 border-l-4 border-[#2E74B5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <h2 className="text-2xl font-bold mb-4 text-[#08314d]">TL;DR</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#0F1B2D]">TL;DR</h2>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>What:</strong> 8-dimension maturity assessment + infrastructure audit + governance review + prioritized 12-month roadmap</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Impact:</strong> Clear understanding of current state, identified gaps, and a sequenced plan to close them</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Timeline:</strong> 4-6 weeks from kickoff to final roadmap presentation</span>
               </li>
             </ul>
@@ -68,7 +68,7 @@ export default function DataFoundationAssessmentPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-[#08314d]">Know Where You Stand Before You Invest</h2>
+              <h2 className="text-3xl font-bold mb-6 text-[#0F1B2D]">Know Where You Stand Before You Invest</h2>
               <p className="text-gray-600 mb-4">
                 Most companies have a vague sense that their data situation isn't great. They know there are problems—silos, quality issues, governance gaps—but they don't have a clear picture of what's actually wrong or what to fix first.
               </p>
@@ -80,7 +80,7 @@ export default function DataFoundationAssessmentPage() {
               </p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4 text-[#08314d]">Key Deliverables</h3>
+              <h3 className="text-2xl font-bold mb-4 text-[#0F1B2D]">Key Deliverables</h3>
               <ul className="space-y-3">
                 {[
                   "Data Maturity Scorecard (8 dimensions)",
@@ -105,7 +105,7 @@ export default function DataFoundationAssessmentPage() {
       {/* What We Assess */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">The 8-Dimension Assessment</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">The 8-Dimension Assessment</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { title: "Data Architecture", description: "How your data is structured, stored, and flows between systems" },
@@ -118,7 +118,7 @@ export default function DataFoundationAssessmentPage() {
               { title: "Integration & Interoperability", description: "How well systems connect and share data" }
             ].map((dimension, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold mb-2 text-[#08314d]">{dimension.title}</h3>
+                <h3 className="text-lg font-semibold mb-2 text-[#0F1B2D]">{dimension.title}</h3>
                 <p className="text-gray-600 text-sm">{dimension.description}</p>
               </div>
             ))}
@@ -129,7 +129,7 @@ export default function DataFoundationAssessmentPage() {
       {/* Client Outcomes */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">What You'll Walk Away With</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">What You'll Walk Away With</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -145,8 +145,8 @@ export default function DataFoundationAssessmentPage() {
                 description: "The data and analysis you need to build internal support for data foundation investments—whether that's with us or another partner."
               }
             ].map((outcome, index) => (
-              <div key={index} className="bg-gray-50 p-6 rounded-lg border-t-4 border-[#673DE6]">
-                <h3 className="text-xl font-semibold mb-3 text-[#08314d]">{outcome.title}</h3>
+              <div key={index} className="bg-gray-50 p-6 rounded-lg border-t-4 border-[#2E74B5]">
+                <h3 className="text-xl font-semibold mb-3 text-[#0F1B2D]">{outcome.title}</h3>
                 <p className="text-gray-600">{outcome.description}</p>
               </div>
             ))}
@@ -157,7 +157,7 @@ export default function DataFoundationAssessmentPage() {
       {/* Typical Engagement */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white rounded-lg p-8">
+          <div className="bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white rounded-lg p-8">
             <h3 className="text-2xl font-bold mb-6 text-center">How It Works</h3>
             <div className="grid md:grid-cols-4 gap-6">
               {[
@@ -167,7 +167,7 @@ export default function DataFoundationAssessmentPage() {
                 { phase: "Week 4-6", title: "Delivery", description: "Executive presentation, detailed report, Q&A sessions" }
               ].map((step, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-sm text-[#a5b4fc] mb-2">{step.phase}</div>
+                  <div className="text-sm text-[#87CEEB] mb-2">{step.phase}</div>
                   <div className="text-xl font-bold mb-2">{step.title}</div>
                   <div className="text-gray-200 text-sm">{step.description}</div>
                 </div>
@@ -178,13 +178,13 @@ export default function DataFoundationAssessmentPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="py-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Know Where You Stand?</h2>
           <p className="text-xl mb-8 opacity-95">
             Let's discuss your data challenges and whether an assessment makes sense for where you are today.
           </p>
-          <Button asChild size="lg" className="bg-white text-[#08314d] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
+          <Button asChild size="lg" className="bg-white text-[#0F1B2D] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
             <Link href="/#contact">Book a 30-Minute Call</Link>
           </Button>
         </div>

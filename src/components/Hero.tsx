@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="pt-24 pb-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+    <section className="pt-24 pb-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in-up">
           Your Data Foundation Is Your
@@ -17,14 +17,14 @@ export function Hero() {
           <Button
             asChild
             size="lg"
-            className="bg-white text-[#08314d] hover:bg-gray-100 rounded-full text-lg px-8 py-6"
+            className="bg-white text-[#0F1B2D] hover:bg-gray-100 rounded-full text-lg px-8 py-6"
           >
             <Link href="#contact">Book a 30-Minute Call</Link>
           </Button>
           <Button
             asChild
             size="lg"
-            className="bg-white text-[#08314d] hover:bg-gray-100 rounded-full text-lg px-8 py-6"
+            className="bg-white text-[#0F1B2D] hover:bg-gray-100 rounded-full text-lg px-8 py-6"
           >
             <Link href="#services">Explore Services</Link>
           </Button>

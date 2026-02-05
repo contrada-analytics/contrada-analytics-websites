@@ -51,13 +51,13 @@ export function Process() {
           {steps.map((step, index) => (
             <div key={index} className="text-center relative">
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-8 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-[#08314d] to-[#1a4a6b]" />
+                <div className="hidden md:block absolute top-8 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F]" />
               )}
-              <div className="w-16 h-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
+              <div className="w-16 h-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
                 <step.icon className="w-7 h-7" />
               </div>
               <h3 className="text-xl font-semibold mb-1">{step.title}</h3>
-              <p className="text-sm text-[#673DE6] font-medium mb-2">{step.services}</p>
+              <p className="text-sm text-[#2E74B5] font-medium mb-2">{step.services}</p>
               <p className="text-gray-600 text-sm">{step.description}</p>
             </div>
           ))}
@@ -65,8 +65,8 @@ export function Process() {
 
         <div className="mt-12 bg-white rounded-lg p-6 shadow-md max-w-3xl mx-auto">
           <p className="text-center text-gray-700">
-            <span className="font-semibold text-[#08314d]">Not sure where to start?</span> Most clients begin with a
-            <span className="text-[#673DE6] font-medium"> Data Foundation Assessment</span> to get clarity on their current state and a prioritized roadmap before committing to implementation work.
+            <span className="font-semibold text-[#0F1B2D]">Not sure where to start?</span> Most clients begin with a
+            <span className="text-[#2E74B5] font-medium"> Data Foundation Assessment</span> to get clarity on their current state and a prioritized roadmap before committing to implementation work.
           </p>
         </div>
       </div>

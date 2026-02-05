@@ -104,7 +104,7 @@ export function ContactForm() {
   }
 
   return (
-    <section id="contact" className="py-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b]">
+    <section id="contact" className="py-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F]">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <Card>
           <CardHeader className="text-center">
@@ -214,7 +214,7 @@ export function ContactForm() {
 
               <Button
                 type="submit"
-                className="w-full bg-gradient-to-r from-[#08314d] to-[#1a4a6b] hover:opacity-90"
+                className="w-full bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] hover:opacity-90"
                 disabled={isSubmitting || !turnstileToken}
               >
                 {isSubmitting ? 'Submitting...' : 'Book a 30-Minute Call'}

@@ -23,7 +23,7 @@ export default function DataFoundationBuildPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/#services" className="inline-flex items-center text-white/80 hover:text-white mb-6">
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -33,7 +33,7 @@ export default function DataFoundationBuildPage() {
             <span className="text-6xl font-bold text-white/20">03</span>
             <h1 className="text-4xl md:text-5xl font-bold">Data Foundation Build</h1>
           </div>
-          <p className="text-xl italic text-[#a5b4fc] mb-4">Making your data governed, trustworthy, and ready for anything</p>
+          <p className="text-xl italic text-[#87CEEB] mb-4">Making your data governed, trustworthy, and ready for anything</p>
           <p className="text-xl opacity-95 max-w-3xl">
             Unified data models, governance frameworks, automated quality checks, data lineage, semantic layers, and access controls. Turn fragmented data into a governed, reliable asset.
           </p>
@@ -41,21 +41,21 @@ export default function DataFoundationBuildPage() {
       </section>
 
       {/* TL;DR */}
-      <section className="py-12 bg-gray-50 border-l-4 border-[#673DE6]">
+      <section className="py-12 bg-gray-50 border-l-4 border-[#2E74B5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <h2 className="text-2xl font-bold mb-4 text-[#08314d]">TL;DR</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#0F1B2D]">TL;DR</h2>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>What:</strong> Unified data model + governance framework + automated quality + lineage + semantic layer + access controls</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Impact:</strong> Data your organization can actually trust—governed, consistent, and ready for analytics or AI</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#673DE6] font-bold mr-3">→</span>
+                <span className="text-[#2E74B5] font-bold mr-3">→</span>
                 <span><strong>Timeline:</strong> 10-20 weeks depending on data complexity and number of sources</span>
               </li>
             </ul>
@@ -68,7 +68,7 @@ export default function DataFoundationBuildPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-[#08314d]">Infrastructure Isn't Enough</h2>
+              <h2 className="text-3xl font-bold mb-6 text-[#0F1B2D]">Infrastructure Isn't Enough</h2>
               <p className="text-gray-600 mb-4">
                 You can have the best cloud infrastructure in the world and still have a data mess. Pipelines running, data flowing, and nobody trusting any of it because there's no governance, no quality checks, and no common understanding of what anything means.
               </p>
@@ -80,7 +80,7 @@ export default function DataFoundationBuildPage() {
               </p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4 text-[#08314d]">Key Deliverables</h3>
+              <h3 className="text-2xl font-bold mb-4 text-[#0F1B2D]">Key Deliverables</h3>
               <ul className="space-y-3">
                 {[
                   "Unified data model (conformed dimensions, fact tables)",
@@ -107,7 +107,7 @@ export default function DataFoundationBuildPage() {
       {/* What We Build */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">What We Build</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">What We Build</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
@@ -132,7 +132,7 @@ export default function DataFoundationBuildPage() {
               }
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3 text-[#08314d]">{item.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 text-[#0F1B2D]">{item.title}</h3>
                 <p className="text-gray-600 mb-4">{item.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {item.benefits.map((benefit, idx) => (
@@ -150,9 +150,9 @@ export default function DataFoundationBuildPage() {
       {/* CPG/Retail Specific */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#08314d]">CPG & Retail Specific</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#0F1B2D]">CPG & Retail Specific</h2>
           <div className="max-w-3xl mx-auto">
-            <div className="bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white rounded-lg p-8">
+            <div className="bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white rounded-lg p-8">
               <h3 className="text-xl font-bold mb-4">Retailer Data Harmonization</h3>
               <p className="text-gray-200 mb-6">
                 CPG companies deal with data from dozens of retailers, each with their own formats, hierarchies, and definitions. We've built the playbooks and patterns to harmonize this data into a unified view.
@@ -179,7 +179,7 @@ export default function DataFoundationBuildPage() {
       {/* Typical Engagement */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white rounded-lg p-8">
+          <div className="bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white rounded-lg p-8">
             <h3 className="text-2xl font-bold mb-6 text-center">How It Works</h3>
             <div className="grid md:grid-cols-4 gap-6">
               {[
@@ -189,7 +189,7 @@ export default function DataFoundationBuildPage() {
                 { phase: "Week 17-20", title: "Operationalize", description: "Documentation, training, support transition" }
               ].map((step, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-sm text-[#a5b4fc] mb-2">{step.phase}</div>
+                  <div className="text-sm text-[#87CEEB] mb-2">{step.phase}</div>
                   <div className="text-xl font-bold mb-2">{step.title}</div>
                   <div className="text-gray-200 text-sm">{step.description}</div>
                 </div>
@@ -200,13 +200,13 @@ export default function DataFoundationBuildPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-[#08314d] to-[#1a4a6b] text-white">
+      <section className="py-16 bg-gradient-to-r from-[#0F1B2D] to-[#2A3F5F] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Build a Data Foundation You Can Trust?</h2>
           <p className="text-xl mb-8 opacity-95">
             Let's discuss how to turn your fragmented data into a governed, reliable asset.
           </p>
-          <Button asChild size="lg" className="bg-white text-[#08314d] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
+          <Button asChild size="lg" className="bg-white text-[#0F1B2D] hover:bg-gray-100 rounded-full text-lg px-8 py-6">
             <Link href="/#contact">Book a 30-Minute Call</Link>
           </Button>
         </div>
