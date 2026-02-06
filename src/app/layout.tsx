@@ -46,20 +46,13 @@ export const metadata: Metadata = {
     siteName: 'DataArk Labs',
     title: 'DataArk Labs | Workflow Automation & Data Analytics for CPG',
     description: 'Transform your commercial data into competitive advantage. I build AI agents and analytics platforms for CPG brands, retailers, and distributors.',
-    images: [
-      {
-        url: '/images/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'DataArk Labs - CPG Analytics & AI Automation',
-      }
-    ],
+    images: [],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'DataArk Labs | Workflow Automation & Data Analytics for CPG',
     description: 'Transform your commercial data into competitive advantage. I build AI agents and analytics platforms for CPG brands, retailers, and distributors.',
-    images: ['/images/twitter-image.png'],
+    images: [],
     creator: '@dataarklabs',
   },
   alternates: {

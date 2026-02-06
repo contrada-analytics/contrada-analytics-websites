@@ -16,18 +16,18 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/services/ai-agent-development" className="text-gray-400 hover:text-white transition-colors">
-                  AI Agent Development
+                <Link href="/services/data-foundation-assessment" className="text-gray-400 hover:text-white transition-colors">
+                  Data Foundation Assessment
                 </Link>
               </li>
               <li>
-                <Link href="/services/readiness-assessment" className="text-gray-400 hover:text-white transition-colors">
-                  AI/Data Readiness
+                <Link href="/services/analytics-design-deployment" className="text-gray-400 hover:text-white transition-colors">
+                  Analytics Design & Deployment
                 </Link>
               </li>
               <li>
-                <Link href="/services/ai-governance" className="text-gray-400 hover:text-white transition-colors">
-                  AI Governance
+                <Link href="/services/agentic-commerce-readiness" className="text-gray-400 hover:text-white transition-colors">
+                  Agentic Commerce Readiness
                 </Link>
               </li>
             </ul>
