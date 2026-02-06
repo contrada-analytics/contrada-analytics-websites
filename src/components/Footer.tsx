@@ -80,7 +80,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 DataArk Labs. All rights reserved.</p>
+          <p>&copy; 2026 DataArkLabs. All rights reserved.</p>
         </div>
       </div>
     </footer>
